@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #F5F7FA;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  padding-top: 12px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Link1 {
+  text-decoration: none;
+  color: rgb(16, 82, 137);
+  font-weight: bold;
+}
+
+.Link1:hover {
+  color: #D31141;
+  text-decoration: underline;
+}
+
+.Content {
+  color: rgb(51, 51, 51);
+  font-family: "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18.2px;
+}
+
+.postlink {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+    border-bottom-color: transparent;
+  padding-bottom: 0;
+  cursor: pointer;
+}
+
+.postlink:visited {
+  border-bottom-color: #5D8FBD;
+  color: #5D8FBD;
+}
+
+.postlink:hover {
+  background-color: #D0E4F6;
+  color: #0D4473;
+}
+
+.listlink {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+    border-bottom-color: transparent;
+  padding-bottom: 0;
+  cursor: pointer;
+  color: rgb(0, 102, 204);
+}
+
+.listlink:visited {
+  border-bottom-color: #5D8FBD;
+  color: #5D8FBD;
+}
+
+.listlink:hover {
+  background-color: #D0E4F6;
+  color: #0D4473;
+}
+
+.text-italics {
+  font-style: italic;
+}
+
+.text-strong {
+  font-weight: bold;
+}
+
+button {     
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;        
+}
