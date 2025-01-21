@@ -146,6 +146,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Musteval", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383987#p383987" },
             { name: "Nightlurker", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=509492#p509492" },
             { name: "Orc Warrior", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=446997#p446997" },
+            { name: "Plumach", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=574808#p574808" },
             { name: "Small Earth Elemental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=460668#p460668" },
             { name: "Small Ice Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=440038#p440038" },
             { name: "Small Magma Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=446999#p446999" },

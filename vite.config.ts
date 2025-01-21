@@ -34,6 +34,7 @@ export default defineConfig({
         magickadnd: resolve(__dirname, 'magicka-dnd/index.html'),
         whynoclassplosionin5e: resolve(__dirname, 'Why no Classplosion in 5e/Why no Classplosion in 5e.html'),
         crusadermaneuvers: resolve(__dirname, 'crusader-maneuvers/Crusader Maneuvers.html'),
+        freyamathforgamedevsassignment1: resolve(__dirname, 'freya-assignments/mathforgamedevsassignment1.html'),
       },
     },
   },
