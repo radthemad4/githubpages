@@ -12,6 +12,7 @@ export default defineConfig({
         gamingdenalternateclassfeatures: resolve(__dirname, 'gamingdenbookmarks/Alternate_Class_Features.html'),
         gamingdenbaseclasses: resolve(__dirname, 'gamingdenbookmarks/Base_Classes.html'),
         gamingdenclassabilitycomponents: resolve(__dirname, 'gamingdenbookmarks/Class_Ability_Components.html'),
+        gamingdenbackgrounds: resolve(__dirname, 'gamingdenbookmarks/Backgrounds.html'),
         gamingdenequipment: resolve(__dirname, 'gamingdenbookmarks/Equipment.html'),
         gamingdenfeats: resolve(__dirname, 'gamingdenbookmarks/Feats.html'),
         gamingdenkoumeimonsterprcsindex: resolve(__dirname, 'gamingdenbookmarks/Koumei_Monster_PrCs_Index.html'),
