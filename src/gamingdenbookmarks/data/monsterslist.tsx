@@ -185,6 +185,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Dabus", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=398221#p398221" },
             { name: "Energy Hound", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=471244#p471244" },
             { name: "Flan", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=472409#p472409" },
+            { name: "Formian Warrior", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=574875#p574875" },
             { name: "Hordling, Small", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387338#p387338" },
             { name: "Kapak Draconian", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=502374#p502374" },
             { name: "Juggernaut", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=570790#p570790" },
