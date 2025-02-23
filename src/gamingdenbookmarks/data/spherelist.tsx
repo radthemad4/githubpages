@@ -122,16 +122,6 @@ export const spheres: Entry[] = [
         author: 'Hicks',
         link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=534091#p534091'
     },
-    ...[
-        'Electricity', 'Gravity', 'Magnetism', 'Plasma ',
-        'Sonics', 'Vacuum', 'Acid', 'Magma', 'Metal'
-    ].map((name) => {
-        return {
-            name,
-            author: 'Darth Rabbitt',
-            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=540615#p540615',
-        }
-    }),
     {
         name: 'Life',
         author: 'Hicks',
@@ -385,4 +375,23 @@ export const spheres: Entry[] = [
         author: 'Prak',
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=573200#p573200',
     },
+    ...[
+        { name: 'Electricity', wikiLink: 'https://dnd-wiki.org/wiki/Electricity,_DR_(3.5e_Sphere)' },
+        { name: 'Gravity', wikiLink: 'https://dnd-wiki.org/wiki/Gravity,_DR_(3.5e_Sphere)' },
+        { name: 'Magnetism', wikiLink: 'https://dnd-wiki.org/wiki/Magnetism_(3.5e_Sphere)' },
+        { name: 'Plasma ', wikiLink: 'https://dnd-wiki.org/wiki/Plasma_(3.5e_Sphere)' },
+        { name: 'Sonics', wikiLink: 'https://dnd-wiki.org/wiki/Sonics_(3.5e_Sphere)' },
+        { name: 'Vacuum', wikiLink: 'https://dnd-wiki.org/wiki/Vacuum_(3.5e_Sphere)' },
+        { name: 'Acid', wikiLink: 'https://dnd-wiki.org/wiki/Acid,_DR_(3.5e_Sphere)' },
+        { name: 'Magma', wikiLink: 'https://dnd-wiki.org/wiki/Magma_(3.5e_Sphere)' },
+        { name: 'Metal', wikiLink: 'https://dnd-wiki.org/wiki/Metal,_DR_(3.5e_Sphere)' },
+    ].map(({ name, wikiLink }) => {
+        return {
+            name,
+            wikiLink,
+            author: 'Darth Rabbitt',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=540615#p540615',
+            note: 'wiki link is more recent'
+        }
+    }),
 ];
