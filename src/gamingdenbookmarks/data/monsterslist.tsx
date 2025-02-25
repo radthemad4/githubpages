@@ -268,6 +268,7 @@ export const monsters: MonsterEntry[] = [
         }),
         ...[
             { name: "Bozak Draconian", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=502375#p502375" },
+            { name: "Crypt Horror", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=574891#p574891" },
             { name: "Hill Giant", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383040#p383040" },
             { name: "Lynel", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=571734#p571734" },
             { name: "Nightmare", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=446912#p446912" },
