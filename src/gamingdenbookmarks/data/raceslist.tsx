@@ -162,46 +162,6 @@ export const races: Entry[] = [
         link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141536#p141536",
     },
     {
-        name: "Deku",
-        author: "Lokathor",
-        link: "https://docs.google.com/document/d/1CKMbTQCiAs6Kr1Bf4hf0KuwZItnsc1dnC4HYy1BQOuE/edit#heading=h.bjefbgcuah9x",
-    },
-    {
-        name: "Goron",
-        author: "Lokathor",
-        link: "https://docs.google.com/document/d/1CKMbTQCiAs6Kr1Bf4hf0KuwZItnsc1dnC4HYy1BQOuE/edit#heading=h.mo9yjfm61iaj",
-    },
-    {
-        name: "Zora",
-        author: "Lokathor",
-        link: "https://docs.google.com/document/d/1CKMbTQCiAs6Kr1Bf4hf0KuwZItnsc1dnC4HYy1BQOuE/edit#heading=h.1sn4vq3cbbjv",
-    },
-    {
-        name: "Rito",
-        author: "Lokathor",
-        link: "https://docs.google.com/document/d/1CKMbTQCiAs6Kr1Bf4hf0KuwZItnsc1dnC4HYy1BQOuE/edit#heading=h.cl8l6m3slmoq",
-    },
-    {
-        name: "Korok",
-        author: "Lokathor",
-        link: "https://docs.google.com/document/d/1CKMbTQCiAs6Kr1Bf4hf0KuwZItnsc1dnC4HYy1BQOuE/edit#heading=h.imr6jbj2y4k",
-    },
-    {
-        name: "Bokoblin",
-        author: "Lokathor",
-        link: "https://docs.google.com/document/d/1CKMbTQCiAs6Kr1Bf4hf0KuwZItnsc1dnC4HYy1BQOuE/edit#heading=h.pgt71fsbw1hc",
-    },
-    {
-        name: "Moblin",
-        author: "Lokathor",
-        link: "https://docs.google.com/document/d/1CKMbTQCiAs6Kr1Bf4hf0KuwZItnsc1dnC4HYy1BQOuE/edit#heading=h.biaqhcmsivam",
-    },
-    {
-        name: "Lizal",
-        author: "Lokathor",
-        link: "https://docs.google.com/document/d/1CKMbTQCiAs6Kr1Bf4hf0KuwZItnsc1dnC4HYy1BQOuE/edit#heading=h.amp2mqajxbx",
-    },
-    {
         name: "True Dragon",
         author: "Hicks",
         link: "http://tgdmb.com/phpBB3/viewtopic.php?t=50217",
