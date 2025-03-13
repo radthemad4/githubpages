@@ -54,10 +54,10 @@ export class App extends React.Component<AppProps, AppState> {
     }
 
     get ranksPerGroup(): number {
-        return this.state.classes.reduce((accumulator, element, index) =>
+        return Math.floor(this.state.classes.reduce((accumulator, element, index) =>
             accumulator +
             (element.levels + (index === 0 ? 3 : 0)) * element.ranksPerLevel * 0.5
-            , 0);
+            , 0));
     }
 
     get numberOfLevels(): number {
