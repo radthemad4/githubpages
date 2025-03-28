@@ -313,4 +313,9 @@ export const backgrounds: Entry[] = [
         author: "Prak",
         link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=55047&p=573962#p573962",
     },
+    {
+        name: `Escaped Slave Monster`,
+        author: "Kaelik",
+        link: "https://files.catbox.moe/tghnq6.png",
+    },
 ];
