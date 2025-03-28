@@ -318,4 +318,9 @@ export const backgrounds: Entry[] = [
         author: "Kaelik",
         link: "https://files.catbox.moe/tghnq6.png",
     },
+    {
+        name: `Bakery Sample Dispenser`,
+        author: "erik",
+        link: "https://files.catbox.moe/0jmc68.png",
+    },
 ];
