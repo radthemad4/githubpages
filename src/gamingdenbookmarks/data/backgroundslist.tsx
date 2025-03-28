@@ -323,4 +323,9 @@ export const backgrounds: Entry[] = [
         author: "erik",
         link: "https://files.catbox.moe/0jmc68.png",
     },
+    {
+        name: `Extreme Omnivore`,
+        author: "Prak",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=574927#p574927",
+    },
 ];
