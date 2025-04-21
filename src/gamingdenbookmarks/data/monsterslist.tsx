@@ -311,6 +311,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Movanic Deva", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384172#p384172" },
             { name: "Nightslaver", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=509494#p509494" },
             { name: "Oni/Ogre Mage", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=509505#p509505" },
+            { name: "Pink Horror", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=574964#p574964" },
             { name: "Salamander", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=426396#p426396" },
             { name: "Sky Bison", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=442307#p442307" },
             { name: "Vanth", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=545423#p545423" },
