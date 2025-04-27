@@ -180,6 +180,7 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
+            { name: "Blue Horror", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=574968#p574968" },
             { name: "Bohrok", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=468546#p468546" },
             { name: "Bomb", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=496103#p496103" },
             { name: "Dabus", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=398221#p398221" },
