@@ -360,6 +360,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Fire Snake", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=426288#p426288" },
             { name: "Firre Eladrin", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=381367#p381367" },
             { name: "Gazer", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=472177#p472177" },
+            { name: "Ghawwas", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=574997#p574997" },
             { name: "Greater Earth Elemental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=460668#p460668" },
             { name: "Greater Ice Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=440038#p440038" },
             { name: "Greater Magma Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=446999#p446999" },
