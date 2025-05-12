@@ -607,4 +607,9 @@ export const races: Entry[] = [
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=574835#p574835',
         author: 'Wiseman',
     },
+    {
+        name: 'Human',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575001#p575001',
+        author: 'Wiseman',
+    },
 ];

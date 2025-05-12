@@ -100,6 +100,76 @@ export const npcs: MonsterEntry[] = [
         {
             name: 'Dremora Warrior 1',
             link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=573531#p573531',
+            challengeRating: 0.5,
+        },
+        {
+            name: 'Human Warrior 1',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575001#p575001',
+            challengeRating: 0.5,
+        },
+        {
+            name: 'Eladrin Warrior 1',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=564282#p564282',
+            challengeRating: 0.5,
+        },
+        {
+            name: 'Haunt Wizard 1',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=574835#p574835',
+            challengeRating: 0.5,
+        },
+        {
+            name: 'Matoran Expert 1',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=468716#p468716',
+            challengeRating: 0.5,
+        },
+        {
+            name: 'Planetouched Commoner 1',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=428664#p428664',
+            challengeRating: 0.5,
+        },
+        {
+            name: 'Witch Wizard 1',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=424325#p424325',
+            challengeRating: 1,
+        },
+        {
+            name: 'Garif Barbarian 1',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=564282#p564282',
+            challengeRating: 1,
+        },
+        {
+            name: 'Gria Ranger 1',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=457540#p457540',
+            challengeRating: 1,
+        },
+        {
+            name: 'Kappa Gadgeteer 1',
+            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=489536#p489536',
+            challengeRating: 1,
+        },
+        {
+            name: 'Moogle Rogue 1',
+            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=313514#p313514',
+            challengeRating: 1,
+        },
+        {
+            name: 'Nu Mou Wizard 1',
+            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=313514#p313514',
+            challengeRating: 1,
+        },
+        {
+            name: 'Viera Druid 1',
+            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=313514#p313514',
+            challengeRating: 1,
+        },
+        {
+            name: 'Zenythri Warrior 1',
+            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=413827#p413827',
+            challengeRating: 1,
+        },
+        {
+            name: 'Merfolk Warrior 2',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=465680#p465680',
             challengeRating: 1,
         },
     ].map(({ name, link, challengeRating }) => {
