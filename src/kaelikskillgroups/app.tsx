@@ -112,7 +112,7 @@ export class App extends React.Component<AppProps, AppState> {
 
         return (
             <div style={{ fontSize: '1em' }}>
-                <h1 style={{ fontSize: '1.2em' }}><a href="http://tgdmb.com/viewtopic.php?t=56277">Kaelik Skill Groups</a></h1>
+                <h1 style={{ fontSize: '1.2em' }}><a href="https://tgdmb.com/viewtopic.php?t=56277">Kaelik Skill Groups</a></h1>
                 <div style={{ padding: '5px' }}>
                     <ClassesContainer
                         classes={this.state.classes}

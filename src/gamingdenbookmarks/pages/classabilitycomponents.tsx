@@ -16,9 +16,9 @@ export const ClassAbilityComponentsDiv = () => {
         <EntryList entries={bardPerformanceStyles} shouldSort={true} />
         <h2 id='Domains'>Domains</h2>
         <EntryList entries={domains} shouldSort={true} />
-        <h2 id='Kaelik_Cleric_Domains'><a href='http://tgdmb.com/phpBB3/viewtopic.php?t=56589'>Kaelik Cleric Domains</a></h2>
+        <h2 id='Kaelik_Cleric_Domains'><a href='https://tgdmb.com/phpBB3/viewtopic.php?t=56589'>Kaelik Cleric Domains</a></h2>
         <EntryList entries={kaelikKlerikDomainLists} shouldSort={true} />
-        <h2 id='Kaelik_Cleric_Spells'><a href='http://tgdmb.com/phpBB3/viewtopic.php?t=56589'>Kaelik Cleric Spells</a></h2>
+        <h2 id='Kaelik_Cleric_Spells'><a href='https://tgdmb.com/phpBB3/viewtopic.php?t=56589'>Kaelik Cleric Spells</a></h2>
         <EntryList entries={kaelikKlerikSpellLists} shouldSort={true} />
         <h2 id='Knightly_Orders'><a href='https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)#Knightly_Order'>Knightly Orders</a></h2>
         <EntryList entries={knightlyOrders} shouldSort={true}></EntryList>

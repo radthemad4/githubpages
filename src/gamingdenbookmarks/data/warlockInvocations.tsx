@@ -7,7 +7,7 @@ export const warlockInvocations: Entry[] = [
     "Poison Sting Blast, Warlock Least; 2nd; Eldritch Essence",
   ].map((name) => ({
     name,
-    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571413#p571413',
+    link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=571413#p571413',
     author: 'Prak',
   })),
 ];

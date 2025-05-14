@@ -5,25 +5,25 @@ export const races: Entry[] = [
         return {
             name: value,
             author: "AndreiChekov",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=479208#p479208"
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=479208#p479208"
         }
     })),
     ...(["Centaur", "Drider", "Deep Gnome", "Satyr", "Triton", "Sahuagin", "Merfolk"].map((value) => {
         return {
             name: value,
             author: "Chamomile",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=384559#p384559"
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=384559#p384559"
         }
     })),
     {
         name: "Dragonling",
         author: "Kaelik",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=141884#p141884",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=141884#p141884",
     },
     {
         name: "Dryad",
         author: "QuantumBoost",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?t=51129",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?t=51129",
         wikiLinks: [
             {
                 title: 'race',
@@ -39,13 +39,13 @@ export const races: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: "http://tgdmb.com/phpBB3/viewtopic.php?p=435197#p435197"
+            link: "https://tgdmb.com/phpBB3/viewtopic.php?p=435197#p435197"
         }
     })),
     {
         name: "Giantkin",
         author: "IGTN",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=50214",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=50214",
         wikiLinks: [
             {
                 title: 'race',
@@ -61,27 +61,27 @@ export const races: Entry[] = [
         return {
             name: value,
             author: "Chamomile",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=385196#p385196"
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=385196#p385196"
         }
     })),
     {
         name: "Half-Elf",
         author: "Chamomile",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=384594#p384594",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=384594#p384594",
     },
     {
         name: "Half-Elf",
         author: "RadiantPhoenix",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=384560#p384560",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=384560#p384560",
     },
     {
         name: "Irikara",
         author: "AndreiChekov",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?t=56037",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?t=56037",
         relatedLinks: [
             {
                 title: "Irikara Heretic",
-                link: "http://tgdmb.com/phpBB3/viewtopic.php?p=439047#p439047"
+                link: "https://tgdmb.com/phpBB3/viewtopic.php?p=439047#p439047"
             }
         ]
     },
@@ -96,24 +96,24 @@ export const races: Entry[] = [
             },
             {
                 title: 'Thread',
-                link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=50006'
+                link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=50006'
             }
         ]
     },
     {
         name: "Ogre",
         author: "ZER0",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=75753#p75753",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=75753#p75753",
     },
     {
         name: "Robot Girl",
         author: "Koumei",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?t=50551",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?t=50551",
         relatedLinks: [
             ...(['Some Magic Items, Arch-Golem Execution Girlfriend (PrC)'].map((value) => {
                 return {
                     title: value,
-                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=141531#p141531'
+                    link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=141531#p141531'
                 }
             }))
         ]
@@ -123,53 +123,53 @@ export const races: Entry[] = [
             return {
                 name: value,
                 author: "Lokathor",
-                link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=56350"
+                link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=56350"
             }
         })),
     {
         name: "Githyanki/Githzerai",
         author: "Quantumboost",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=132973",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=132973",
         wikiLink: "https://dnd-wiki.org/wiki/Githyanki/Githzerai_%283.5e_Race%29",
         relatedLinks: [
             { title: 'Githyanki Paragon', link: 'https://dnd-wiki.org/wiki/Githyanki_Paragon_%283.5e_Racial_Paragon_Class%29' },
-            { title: 'Githzerai Paragon', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=133215#p133215' },
+            { title: 'Githzerai Paragon', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=133215#p133215' },
         ]
     },
     {
         name: "Neko-oni",
         author: "Koumei",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141532#p141532",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=141532#p141532",
     },
     {
         name: "Aranea",
         author: "Koumei",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141532#p141532",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=141532#p141532",
     },
     {
         name: "Yuan-ti Halfblood",
         author: "Koumei",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534",
     },
     {
         name: "Empusa",
         author: "Koumei",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141535#p141535",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=141535#p141535",
     },
     {
         name: "Vaxt",
         author: "Koumei",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141536#p141536",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=141536#p141536",
     },
     {
         name: "True Dragon",
         author: "Hicks",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?t=50217",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?t=50217",
     },
     {
         name: "Volodni",
         author: "PhaedrusXY",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=134347#p134347",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=134347#p134347",
     },
     ...(["Aasimar", "Drow", "Dwarf", "Elf", "Gnoll", "Gnome", "Goblin", "Half-elf", "Halfling", "Human",
         "Iron Born", "Kobold", "Minotaur", "Sprite"].map((value) => {
@@ -236,7 +236,7 @@ export const races: Entry[] = [
         return {
             name: value.name,
             author: "Frank and K",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=33296#p33296",
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=33296#p33296",
             wikiLink: value.link
         }
     })),
@@ -248,20 +248,20 @@ export const races: Entry[] = [
         return {
             name: value,
             author: "Wiseman",
-            link: "http://tgdmb.com/phpBB3/viewtopic.php?p=405100#p405100"
+            link: "https://tgdmb.com/phpBB3/viewtopic.php?p=405100#p405100"
         }
     })),
     ...(["Floatzel", "Delibird", "Furret", "Golett/Golurk"].map((value) => {
         return {
             name: value,
             author: "FeyMagician",
-            link: "http://tgdmb.com/phpBB3/viewtopic.php?p=527470#p527470"
+            link: "https://tgdmb.com/phpBB3/viewtopic.php?p=527470#p527470"
         }
     })),
     {
         name: "Troll (Discworld)",
         author: "Koumei",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141343#p141343",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=141343#p141343",
     },
     ...([
         'Orc', 'Nekomata', 'Empusa', 'Alraune',
@@ -271,27 +271,27 @@ export const races: Entry[] = [
         return {
             name: `${name} (Disgaea)`,
             author: "Koumei",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=154515#p154515"
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=154515#p154515"
         }
     })),
     {
         name: 'Prinny (Disgaea)',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=154324#p154324',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=154324#p154324',
         author: 'Koumei'
     },
     {
         name: 'Hoplite',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=136761#p136761',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=136761#p136761',
         author: 'Maxus'
     },
     ...[
-        { name: 'Gria', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=457540#p457540' },
-        { name: 'Matoran', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=468716#p468716' },
-        { name: 'Witch', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=424325#p424325' },
-        { name: 'Zenythri', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=413827#p413827' },
-        { name: 'Kappa', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=489536#p489536' },
-        { name: 'Merfolk', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=465680#p465680' },
-        { name: 'Planetouched', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=428664#p428664' },
+        { name: 'Gria', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=457540#p457540' },
+        { name: 'Matoran', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=468716#p468716' },
+        { name: 'Witch', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=424325#p424325' },
+        { name: 'Zenythri', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=413827#p413827' },
+        { name: 'Kappa', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=489536#p489536' },
+        { name: 'Merfolk', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=465680#p465680' },
+        { name: 'Planetouched', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=428664#p428664' },
     ].map(({ name, link }) => {
         return {
             name,
@@ -301,7 +301,7 @@ export const races: Entry[] = [
     }),
     {
         name: 'Were-Espeon',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=62582#p62582',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=62582#p62582',
         author: 'Koumei',
         relatedLinks: [
             { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
@@ -309,7 +309,7 @@ export const races: Entry[] = [
     },
     {
         name: 'Were-Sneasel',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=62592#p62592',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=62592#p62592',
         author: 'Koumei',
         relatedLinks: [
             { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
@@ -317,7 +317,7 @@ export const races: Entry[] = [
     },
     {
         name: 'Were-Umbreon',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=62633#p62633',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=62633#p62633',
         author: 'Koumei',
         relatedLinks: [
             { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
@@ -325,7 +325,7 @@ export const races: Entry[] = [
     },
     {
         name: 'Were-Metang',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=62728#p62728',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=62728#p62728',
         author: 'Koumei',
         relatedLinks: [
             { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
@@ -333,67 +333,67 @@ export const races: Entry[] = [
     },
     {
         name: 'Castlewatch Gargoyles',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=169292#p169292',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=169292#p169292',
         author: 'Prak',
     },
     {
         name: 'Apiar',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=311987#p311987',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=311987#p311987',
         author: 'Prak',
     },
     {
         name: 'Nosgothian Vampire, Fledgling',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=140281#p140281',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=140281#p140281',
         author: 'Prak',
-        relatedLinks: [{ title: 'Adult', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=140612#p140612' }]
+        relatedLinks: [{ title: 'Adult', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=140612#p140612' }]
     },
     {
         name: 'Atlantean',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=441595#p441595',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=441595#p441595',
         author: 'Prak',
     },
     {
         name: 'Constructoid',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=441609#p441609',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=441609#p441609',
         author: 'Prak',
     },
     {
         name: 'Igor',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=126414#p126414',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=126414#p126414',
         author: 'Prak',
     },
     {
         name: 'Discworld Gnome (Nac Mac Feegle, Pictsies)',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=126429#p126429',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=126429#p126429',
         author: 'Prak',
     },
     {
         name: 'Troll (Discworld)',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=460460#p460460',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=460460#p460460',
         author: 'Prak',
     },
     ...(["Kappa", "Kitsune", "Nekomata", "Tanuki", 'Tengu', 'Usagi', 'Yuki-Onna'].map((value) => {
         return {
             name: value,
             author: "Prak",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=155933#p155933"
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=155933#p155933"
         }
     })),
     ...(["Xuan", "Wu", "Yak Folk", "Naga", 'Balu',].map((value) => {
         return {
             name: value,
             author: "Prak",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=155935#p155935"
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=155935#p155935"
         }
     })),
     {
         name: 'Cybertronian (Minimum Character Level 4)',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=443375#p443375',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=443375#p443375',
         author: 'Prak',
     },
     {
         name: 'Race Revisions and Race Trait system',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=56113',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=56113',
         author: 'AcidBlades',
     },
     ...[
@@ -404,7 +404,7 @@ export const races: Entry[] = [
             name,
             author: "DenizenKane",
             link: 'https://docs.google.com/document/d/1Xw7fNl_7cns6t1ywrRagJNpGNYVeEiZgsv8SqkKlMAU/edit',
-            relatedLinks: [{ title: 'Den Thread', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=56941' }]
+            relatedLinks: [{ title: 'Den Thread', link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=56941' }]
         }
     }),
     ...[
@@ -413,7 +413,7 @@ export const races: Entry[] = [
         return {
             name,
             author: "Prak",
-            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=417274#p417274',
+            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=417274#p417274',
         }
     }),
     ...[
@@ -422,7 +422,7 @@ export const races: Entry[] = [
         return {
             name,
             author: "Prak",
-            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=417276#p417276',
+            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=417276#p417276',
         }
     }),
     ...[
@@ -431,12 +431,12 @@ export const races: Entry[] = [
         return {
             name,
             author: 'Wiseman',
-            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=313514#p313514',
+            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=313514#p313514',
         }
     }),
     {
         name: 'Holstaur',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=245658#p245658',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=245658#p245658',
         author: 'icyshadowlord',
     },
     ...[
@@ -445,7 +445,7 @@ export const races: Entry[] = [
         return {
             name,
             author: 'Count Arioch the 28th',
-            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=226876#p226876',
+            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=226876#p226876',
         }
     }),
     ...[
@@ -454,12 +454,12 @@ export const races: Entry[] = [
         return {
             name,
             author: 'icyshadowlord',
-            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=198824#p198824',
+            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=198824#p198824',
         }
     }),
     {
         name: 'Warforged',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=163862#p163862',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=163862#p163862',
         author: 'Kaelik',
     },
     ...[
@@ -469,22 +469,22 @@ export const races: Entry[] = [
         return {
             name: `${name} (Josh's Enkopja Campaign Doc)`,
             author: 'Josh_Kablack',
-            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=178497#p178497',
+            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=178497#p178497',
         }
     }),
     {
         name: 'Scorpionfolk (Minimum Level 8)',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545498#p545498',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=545498#p545498',
         author: 'Koumei',
     },
     {
         name: 'Awakened Skeleton',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=547370#p547370',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=547370#p547370',
         author: 'Koumei',
     },
     {
         name: 'Awakened Zombie',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=547381#p547381',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=547381#p547381',
         author: 'Koumei',
     },
     ...[
@@ -494,62 +494,62 @@ export const races: Entry[] = [
         return {
             name,
             author: 'fatmonkey13',
-            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=172322#p172322',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=172322#p172322',
         }
     }),
     {
         name: 'Mouse Droid',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=165843#p165843',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=165843#p165843',
         author: 'Vebyast',
     },
     {
         name: 'Catfolk',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=143968#p143968',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=143968#p143968',
         author: 'Orion',
     },
     {
         name: 'Warforged',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=125241#p125241',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=125241#p125241',
         author: 'schpeelah',
     },
     {
         name: 'Grippli',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=50547',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=50547',
         author: 'Judging__Eagle',
     },
     {
         name: 'Redcap',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=122548#p122548',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=122548#p122548',
         author: 'koz',
     },
     {
         name: 'Orog',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=114664#p114664',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=114664#p114664',
         author: 'IGTN',
     },
     {
         name: 'Half-elf',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=63727#p63727',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=63727#p63727',
         author: 'Maxus',
     },
     {
         name: 'Shifter',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=104428#p104428',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=104428#p104428',
         author: 'Maxus',
     },
     {
         name: 'Pamb-uh',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=63395#p63395',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=63395#p63395',
         author: 'Cynic',
     },
     {
         name: 'Immortal',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=39966#p39966',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=39966#p39966',
         author: 'Judging__Eagle',
     },
     {
         name: 'Red Dragon',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37954',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37954',
         author: 'canamrock',
     },
     ...[
@@ -589,22 +589,22 @@ export const races: Entry[] = [
     },
     {
         name: 'Garou (Werewolf)',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=440580#p440580',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=440580#p440580',
         author: 'Prak',
     },
     {
         name: 'Eladrin',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=564282#p564282',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=564282#p564282',
         author: 'Wiseman',
     },
     {
         name: 'Dremora',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=573531#p573531',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=573531#p573531',
         author: 'Wiseman',
     },
     {
         name: 'Haunt',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=574835#p574835',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=574835#p574835',
         author: 'Wiseman',
     },
     {

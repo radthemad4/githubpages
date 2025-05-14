@@ -4,52 +4,52 @@ export const backgrounds: Entry[] = [
     {
         name: 'Raised by Humans',
         author: "Koumei",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141532#p141532",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=141532#p141532",
     },
     ...['Spider-Born', 'Web Fetishist'].map((value) => {
         return {
             name: value,
             author: "Nachtigallerator",
-            link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141533#p141533",
+            link: "https://tgdmb.com/phpBB3/viewtopic.php?p=141533#p141533",
         }
     }),
     {
         name: "Chosen One",
         author: "Koumei",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534",
-        relatedLinks: [{ title: "Yuan-Ti Halfblood", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534" }],
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534",
+        relatedLinks: [{ title: "Yuan-Ti Halfblood", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534" }],
     },
     {
         name: "Death Cult",
         author: "Koumei",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534"
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534"
     },
     {
         name: "Tainted One",
         author: "Koumei",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534",
     },
     {
         name: "Overlord's Vassal",
         author: "Koumei",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141535#p141535",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=141535#p141535",
     },
     {
         name: "Penitent",
         author: "Koumei",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141535#p141535",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=141535#p141535",
     },
     {
         name: "House Plant",
         author: "Nachtigallerator",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141536#p141536",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=141536#p141536",
     },
     ...['Center Stage', 'Outlaw', 'Refugee', 'Wanderer', 'Craftsman', 'Scholar', 'Farmer'].map((value) => {
         return {
             name: value,
             author: "Wiseman",
-            link: "http://tgdmb.com/phpBB3/viewtopic.php?p=405125#p405125",
-            relatedLinks: [{ title: 'Pokemon Mystery Dungeon D20', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=55558' }]
+            link: "https://tgdmb.com/phpBB3/viewtopic.php?p=405125#p405125",
+            relatedLinks: [{ title: 'Pokemon Mystery Dungeon D20', link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=55558' }]
         }
     }),
     ...[
@@ -109,118 +109,118 @@ export const backgrounds: Entry[] = [
         return {
             name: element.name,
             author: 'Frank and K',
-            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=33298#p33298',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=33298#p33298',
             wikiLink: element.wikiLink
         }
     }),
     {
         name: "Dungeonborn",
         author: 'Libertad',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=246649#p246649',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=246649#p246649',
     },
     ...['Exile', 'Former Claudia Miner', 'Disgruntled Airship Hand', 'Really Big Game Hunter', 'Student of Superstition',].map((value) => {
         return {
             name: value,
             author: "Josh_Kablack",
-            link: "http://tgdmb.com/phpBB3/viewtopic.php?p=178501#p178501",
+            link: "https://tgdmb.com/phpBB3/viewtopic.php?p=178501#p178501",
         }
     }),
     ...["Mage's assistant", "Mage's bodyguard", 'Rouge Modron', 'Rogue Modron', 'The Old One',].map((name) => {
         return {
             name: `${name} (Warforged)`,
             author: "schpeelah",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=125241#p125241",
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=125241#p125241",
         }
     }),
     {
         name: `Elementforged`,
         author: "schpeelah",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=125850#p125850",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=125850#p125850",
     },
     ...['Raised by the Church of Pelor', 'Dragon Descendant',].map((name) => {
         return {
             name,
             author: "spongeknight",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=431919#p431919",
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=431919#p431919",
         }
     }),
     ...['Raised by Monks', 'Despotic Seed', 'Treasure Hunter'].map((name) => {
         return {
             name,
             author: "erik",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=431927#p431927",
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=431927#p431927",
         }
     }),
     {
         name: `Living Weapon`,
         author: "Prak",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=431931#p431931",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=431931#p431931",
     },
     ...['Fruit Salad', 'Swamp Fox', 'REMF', 'K9 Unit',].map((name) => {
         return {
             name,
             author: "Insomniac",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=431981#p431981",
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=431981#p431981",
         }
     }),
     {
         name: `Slave of the Drow`,
         author: "Wiseman",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=432072#p432072",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=432072#p432072",
     },
     ...['Artificial', 'Gladiator', 'Magical Girl',].map((name) => {
         return {
             name,
             author: "Prak",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=432099#p432099",
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=432099#p432099",
         }
     }),
     ...['Cultural Stereotype', 'Defying Stereotype', 'Thief replacement', 'Institutionalized racism', 'hated ethnic group', 'Transracial',].map((name) => {
         return {
             name,
             author: "OgreBattle",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=432107#p432107",
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=432107#p432107",
         }
     }),
     ...['Medic', 'Cook', 'Animal Magnetism',].map((name) => {
         return {
             name,
             author: "Prak",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=432110#p432110",
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=432110#p432110",
         }
     }),
     ...['Touched By His Noodly Appendage', 'Bullysaurus!', 'Whipmaster!',].map((name) => {
         return {
             name,
             author: "Insomniac",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=432127#p432127",
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=432127#p432127",
         }
     }),
     ...['Unconventional Religion', 'Quick-Purse', 'Strongman',].map((name) => {
         return {
             name,
             author: "Aryxbez",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=432184#p432184",
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=432184#p432184",
         }
     }),
     ...['Crocodile Charmer', 'Sea Monkey', 'Giant Frog',].map((name) => {
         return {
             name,
             author: "Prak",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=432319#p432319",
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=432319#p432319",
         }
     }),
     ...['University Graduate', 'Smuggler', 'Raised by Fey', 'Flame-touched', 'Ex-Cop', 'Electric', 'Corrosive', 'Cold-blooded', 'Captured by Mind Flayers', 'Aristocrat'].map((name) => {
         return {
             name,
             author: "RobbyPants",
-            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=432434#p432434",
+            link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=432434#p432434",
         }
     }),
     {
         name: `Escaped from Dark Ones`,
         author: "radthemad4",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=432450#p432450",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=432450#p432450",
     },
     {
         name: `Cave born`,
@@ -230,7 +230,7 @@ export const backgrounds: Entry[] = [
     {
         name: `Animal Form`,
         author: "Prak",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=555409#p555409",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=555409#p555409",
     },
     {
         name: `Wizard's Apprentice`,
@@ -245,7 +245,7 @@ export const backgrounds: Entry[] = [
     {
         name: `Nondescript`,
         author: "Prak",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=556318#p556318",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=556318#p556318",
     },
     {
         name: `Prophesied Sacrifice`,
@@ -286,7 +286,7 @@ export const backgrounds: Entry[] = [
     {
         name: `Return of the Living Dead`,
         author: "Prak",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=567221#p567221",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=567221#p567221",
     },
     {
         name: `Exitree`,
@@ -301,17 +301,17 @@ export const backgrounds: Entry[] = [
     {
         name: `Cursed Child`,
         author: "Prak",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=573361#p573361",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=573361#p573361",
     },
     {
         name: `Cybernetic`,
         author: "Prak",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=573509#p573509",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=573509#p573509",
     },
     {
         name: `Noble in Hiding`,
         author: "Prak",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=55047&p=573962#p573962",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=55047&p=573962#p573962",
     },
     {
         name: `Escaped Slave Monster`,

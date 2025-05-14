@@ -34,7 +34,7 @@ export const kaelikKlerikDomainLists: Entry[] = [
     ].map((name) => {
         return {
             name,
-            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=538542#p538542',
+            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=538542#p538542',
             author: 'Koumei'
         }
     }),
@@ -44,6 +44,6 @@ export const kaelikKlerikSpellLists: Entry[] = [
     {
         name: 'Additional Spells for Clerics',
         author: 'Koumei',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=539726#p539726'
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=539726#p539726'
     }
 ];

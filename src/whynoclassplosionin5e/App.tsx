@@ -351,7 +351,7 @@ function App() {
               marginBottom: '5.1px',
               paddingTop: '2px',
             }}>
-              <a className='Link1' target='_blank' href="http://www.tgdmb.com/phpBB3/viewtopic.php?p=433750">Why no Classplosion in 5e?</a>
+              <a className='Link1' target='_blank' href="https://www.tgdmb.com/phpBB3/viewtopic.php?p=433750">Why no Classplosion in 5e?</a>
             </h1>
             <p style={{
               lineHeight: '12px',
@@ -361,11 +361,11 @@ function App() {
               fontWeight: 'normal',
             }}
             >
-              <a target='_blank' href='http://www.tgdmb.com/phpBB3/viewtopic.php?p=433750#p433750'><FaFile color='#999999' /></a> by <a target='_blank' href={`http://www.tgdmb.com/phpBB3/memberlist.php?mode=viewprofile&u=9`} className="Link1">Username17</a>  » Wed Apr 08, 2015 8:45 pm
+              <a target='_blank' href='https://www.tgdmb.com/phpBB3/viewtopic.php?p=433750#p433750'><FaFile color='#999999' /></a> by <a target='_blank' href={`https://www.tgdmb.com/phpBB3/memberlist.php?mode=viewprofile&u=9`} className="Link1">Username17</a>  » Wed Apr 08, 2015 8:45 pm
             </p>
 
             <div className='Content'>
-              <p>We mentioned when talking about 4th edition what a fucking travesty it was that there wasn't a <a className="postlink" target='_blank' href="http://www.tgdmb.com/viewtopic.php?t=50923&amp;view=previous">Classplosion</a>. Simply put: 4e's game system simply couldn't handle there <em className="text-italics">not</em> being over a hundred classes. 4e fucking killed itself by not bringing out the new classes fast and furious.<br /><br />Now 5th edition is a crap game. But one of the ways it is <em className="text-italics">better</em> than 4th edition is that it does not <em className="text-italics">need</em> dozens of new classes. But it still needs <em className="text-italics">something</em>. They went to print with 12 classes. And that was minimally sufficient to be more than the 3e PHB and make it look like they gave a shit. It did not repeat the mistakes of 4e of producing only 8 classes on release. But after doing that, there's fucking <em className="text-italics">nothing</em> on the schedule. No new classes.<br /><br />The claim seems to be that producing new sorcerous origins and class kits and shit. This is bullshit. Obviously, they'd need to do something like this:</p>
+              <p>We mentioned when talking about 4th edition what a fucking travesty it was that there wasn't a <a className="postlink" target='_blank' href="https://www.tgdmb.com/viewtopic.php?t=50923&amp;view=previous">Classplosion</a>. Simply put: 4e's game system simply couldn't handle there <em className="text-italics">not</em> being over a hundred classes. 4e fucking killed itself by not bringing out the new classes fast and furious.<br /><br />Now 5th edition is a crap game. But one of the ways it is <em className="text-italics">better</em> than 4th edition is that it does not <em className="text-italics">need</em> dozens of new classes. But it still needs <em className="text-italics">something</em>. They went to print with 12 classes. And that was minimally sufficient to be more than the 3e PHB and make it look like they gave a shit. It did not repeat the mistakes of 4e of producing only 8 classes on release. But after doing that, there's fucking <em className="text-italics">nothing</em> on the schedule. No new classes.<br /><br />The claim seems to be that producing new sorcerous origins and class kits and shit. This is bullshit. Obviously, they'd need to do something like this:</p>
               <br />
               {map[page]}
               <br />

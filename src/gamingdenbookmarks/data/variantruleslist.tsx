@@ -4,7 +4,7 @@ export const variantRules: Entry[] = [
     {
         name: "Skill Groups",
         author: "Kaelik",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?t=56277",
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?t=56277",
         wikiLink: "https://dnd-wiki.org/wiki/Skill_Groups_%283.5e_Variant_Rule%29",
         relatedLinks: [{ title: "Calculator", link: "https://radthemad4.github.io./Kaelik_Skill_Groups.html" }]
     },
@@ -16,119 +16,119 @@ export const variantRules: Entry[] = [
     {
         name: "Craft Skill Rewrite",
         author: "Lokathor",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=55252"
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=55252"
     },
     {
         name: "Craft Skill Rewrite",
         author: "Maxus",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=49363"
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=49363"
     },
     {
         name: "Alternative Item Bonus Progression",
         author: "Kaelik",
-        link: "http://tgdmb.com/phpBB3/viewtopic.php?t=56878"
+        link: "https://tgdmb.com/phpBB3/viewtopic.php?t=56878"
     },
     {
         name: "Skill Changes",
         author: "Iaimeki",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=29292"
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=29292"
     },
     {
         name: "Evocations should be lower level",
         author: 'FrankTrollman',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=162379#p162379',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=162379#p162379',
     },
     {
         name: "Fixing Jump",
         author: 'IGTN',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=49283',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=49283',
     },
     {
         name: "Miracle fix",
         author: 'Quantumboost',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=50036',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=50036',
     },
     {
         name: "Stealth Rules",
         author: 'Kaelik',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=494432',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=494432',
     },
     {
         name: "Trapmaking AKA Un-fucking D&D Traps",
         author: 'Dominicius',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=465968',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=465968',
     },
     {
         name: "Changing Leadership",
         author: 'Sigil',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=55138',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=55138',
     },
     {
         name: "Class Compression",
         author: 'JonSetanta',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51915',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51915',
     },
     {
         name: "Mini Classes",
         author: 'JonSetanta',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51968',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51968',
     },
     {
         name: "Action Points",
         author: 'Bihlbo',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51864',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51864',
     },
     {
         name: 'Arcane Classes Redone',
         author: 'JonSetanta',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51871',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51871',
     },
     {
         name: 'Divine Classes Redone',
         author: 'JonSetanta',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51870',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51870',
     },
     {
         name: 'Warrior Class Remakes',
         author: 'JonSetanta',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51868',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51868',
     },
     {
         name: 'Mana-Based Spellcasting',
         author: 'Surgo',
         link: 'https://dnd-wiki.org/wiki/Mana-Based_Spellcasting_(3.5e_Variant_Rule)',
-        note: <a href='http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=50820'>Den Thread</a>
+        note: <a href='https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=50820'>Den Thread</a>
     },
     {
         name: 'Better Counterspelling',
         author: 'Surgo',
         link: 'https://dnd-wiki.org/wiki/Better_Counterspelling_(3.5e_Variant_Rule)',
-        note: <a href='http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51349'>Den Thread</a>
+        note: <a href='https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51349'>Den Thread</a>
     },
     {
         name: 'Alternate Spell Points Plan',
         author: 'TarkisFlux',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=50026',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=50026',
     },
     {
         name: 'Summoning Spell Fix',
         author: 'ZER0',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=75889#p75889',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=75889#p75889',
     },
     {
         name: "RC's new skill system (Part 1: Stealth Skills)",
         author: 'RandomCasualty',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=38940',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=38940',
     },
     {
         name: "Reworking Pets",
         author: 'Essence',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=38815',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=38815',
     },
     {
         name: "Alternate poison making rules.",
         author: 'Josh_Kablack',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37905',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37905',
     },
     {
         name: "Alternative Knowledge Rules [Tome of Maybe]",
@@ -137,12 +137,12 @@ export const variantRules: Entry[] = [
     },
     {
         name: "Spells that Dispel Buffs [Tome of Arcane]",
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=56624',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=56624',
         author: 'Kaelik',
     },
     {
         name: "Divination Rewrite",
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=58059',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58059',
         author: 'Kaelik',
     },
 ];

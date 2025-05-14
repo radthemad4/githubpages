@@ -44,23 +44,23 @@ createRoot(<>
   </h1>
   <p className="author">
     <FaFile color='#999999' aria-hidden='true' fontSize={10} />
-    <span style={{ marginLeft: '5px' }}>by <strong><a href={`http://www.tgdmb.com/phpBB3/memberlist.php?mode=viewprofile&u=1939`} className="Link1">radthemad4</a></strong></span>
+    <span style={{ marginLeft: '5px' }}>by <strong><a href={`https://www.tgdmb.com/phpBB3/memberlist.php?mode=viewprofile&u=1939`} className="Link1">radthemad4</a></strong></span>
   </p>
   <div className='Content'>
     <div>The Tomes are a set of five book-length sourcebooks made by Frank and K. These books are: </div>
     <ul>
-      <li>The <a href="http://www.tgdmb.com/phpBB3/viewtopic.php?t=34248">Tome of Necromancy</a> (<a href="http://www.dnd-wiki.org/wiki/Tome_of_Necromancy_%283.5e_Sourcebook%29">wiki</a>)</li>
-      <li>The <a href="http://www.tgdmb.com/phpBB3/viewtopic.php?t=28828">Tome of Fiends</a> (<a href="http://www.dnd-wiki.org/wiki/Tome_of_Fiends_%283.5e_Sourcebook%29">wiki</a>)</li>
-      <li>The <a href="http://www.tgdmb.com/phpBB3/viewtopic.php?t=28547">Dungeonomicon</a> (<a href="http://www.dnd-wiki.org/wiki/Dungeonomicon_%283.5e_Sourcebook%29">wiki</a>)</li>
-      <li><a href="http://www.tgdmb.com/phpBB3/viewtopic.php?t=33294">Races of War</a> (<a href="http://www.dnd-wiki.org/wiki/Races_of_War_%283.5e_Sourcebook%29">wiki</a>)</li>
-      <li><a href="http://www.tgdmb.com/phpBB3/viewtopic.php?t=35813">Book of Gears</a> (<a href="http://www.dnd-wiki.org/wiki/Book_of_Gears_%283.5e_Sourcebook%29">wiki</a>) (only partially complete but worth reading, use Red_Rob's Complete Tome Items and Simplified Tome Armor, see below)</li>
+      <li>The <a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=34248">Tome of Necromancy</a> (<a href="http://www.dnd-wiki.org/wiki/Tome_of_Necromancy_%283.5e_Sourcebook%29">wiki</a>)</li>
+      <li>The <a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=28828">Tome of Fiends</a> (<a href="http://www.dnd-wiki.org/wiki/Tome_of_Fiends_%283.5e_Sourcebook%29">wiki</a>)</li>
+      <li>The <a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=28547">Dungeonomicon</a> (<a href="http://www.dnd-wiki.org/wiki/Dungeonomicon_%283.5e_Sourcebook%29">wiki</a>)</li>
+      <li><a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=33294">Races of War</a> (<a href="http://www.dnd-wiki.org/wiki/Races_of_War_%283.5e_Sourcebook%29">wiki</a>)</li>
+      <li><a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=35813">Book of Gears</a> (<a href="http://www.dnd-wiki.org/wiki/Book_of_Gears_%283.5e_Sourcebook%29">wiki</a>) (only partially complete but worth reading, use Red_Rob's Complete Tome Items and Simplified Tome Armor, see below)</li>
     </ul>
 
     <div>Unofficial Extras</div>
     <ul>
       <li><a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=51121">Comprehensive Tome Errata, Kaelik</a></li>
-      <li><a href="http://tgdmb.com/phpBB3/viewtopic.php?t=53704">Complete Tome Items and Wish Economy, Red_Rob</a> (<a href="https://dnd-wiki.org/wiki/Tome_Magic_Items_%283.5e_Variant_Rule%29">wiki</a>)</li>
-      <li><a href="http://www.tgdmb.com/phpBB3/viewtopic.php?t=53563">Simplified Tome Armour, Red_Rob</a> (<a href="https://dnd-wiki.org/wiki/Tome_Armor_(3.5e_Variant_Rule%29">wiki</a>)</li>
+      <li><a href="https://tgdmb.com/phpBB3/viewtopic.php?t=53704">Complete Tome Items and Wish Economy, Red_Rob</a> (<a href="https://dnd-wiki.org/wiki/Tome_Magic_Items_%283.5e_Variant_Rule%29">wiki</a>)</li>
+      <li><a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=53563">Simplified Tome Armour, Red_Rob</a> (<a href="https://dnd-wiki.org/wiki/Tome_Armor_(3.5e_Variant_Rule%29">wiki</a>)</li>
     </ul>
     <div>
       These sourcebooks have the mission of sanitizing the parts of D{'&'}D 3.5 that the writers believe did not make sense. The five books focus, respectively, on the Necromancy rules, the rules for evil outsiders and the lower planes, dungeons and roguish characters, bringing fighter types up to the same power level as casters, and an overhaul of item and wealth rules. Despite only two of the books having "Tome" in the title, that word has been adopted as an adjective to describe the rule set and design philosophy as a whole. Some of the material in the Tomes can look significantly different than what you'd find in most 3.5 sourcebooks, and the rules for fighters especially have a different power level than what many people are used to.
@@ -73,9 +73,9 @@ createRoot(<>
     <div>See also:
       <ul>
         <li><a href="https://dnd-wiki.org/wiki/Tome_Material">Tome Material in dnd-wiki</a>, as well as <a href="https://dnd-wiki.org/wiki/3.5e_Homebrew">other 3.5e material there</a>. However, ads are terrible on dnd-wiki, so make sure you have an adblocker (I recommend uBlock origin). Also, you can <a href="https://gist.github.com/radthemad4/472c676a0609b5f127645d35508efa5a">use this with a custom CSS addon</a> (e.g. Stylus) or <a href="https://gist.github.com/radthemad4/7a6ef11d9ac97b26b8e92b5ad3590a05">this script with the TamperMonkey addon</a> to reduce the size of the sidebar and topbar there.</li>
-        <li><a href='http://www.niftymessageboard.com/phpbb3/viewtopic.php?f=10&t=50919'>Nifty SRD</a></li>
-        <li><a href='http://www.tgdmb.com/phpBB3/viewtopic.php?t=57804'>Script for adjusting the den's layout (profile on left, smaller columns on left and right)</a></li>
-        <li><a href='http://www.tgdmb.com/phpBB3/viewtopic.php?t=57979'>Den Spoiler Fix</a></li>
+        <li><a href='https://www.niftymessageboard.com/phpBB3/viewtopic.php?t=50919'>Nifty SRD</a></li>
+        <li><a href='https://www.tgdmb.com/phpBB3/viewtopic.php?t=57804'>Script for adjusting the den's layout (profile on left, smaller columns on left and right)</a></li>
+        <li><a href='https://www.tgdmb.com/phpBB3/viewtopic.php?t=57979'>Den Spoiler Fix</a></li>
       </ul>
     </div>
     <br />
