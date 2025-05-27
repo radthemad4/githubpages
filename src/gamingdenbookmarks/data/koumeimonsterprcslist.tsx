@@ -1231,6 +1231,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575071#p575071',
             minimumStartingLevel: 10
         },
+        {
+            name: "Cold Rider PrC: Frozen King",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575079#p575079',
+            minimumStartingLevel: 10
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
