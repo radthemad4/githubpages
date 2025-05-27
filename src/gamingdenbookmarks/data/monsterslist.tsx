@@ -131,6 +131,7 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
+            { name: "Arbiter", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=575076#p575076" },
             { name: "Baaz Draconian", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=464367#p464367" },
             { name: "Bandit", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=420973#p420973" },
             { name: "Cassisian", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=384917#p384917" },
@@ -155,6 +156,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Small Smoke Paramental", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=550121#p550121" },
             { name: "Soldier", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=54924&p=574581#p574581" },
             { name: "Wyrmling Dragon", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
+            { name: "Yellow Horror", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=575077#p575077" },
         ].map(({ name, link }) => {
             return {
                 name,

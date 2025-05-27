@@ -1226,6 +1226,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=565928#p565928',
             minimumStartingLevel: 5
         },
+        {
+            name: "Lamia Matriarch PrC: Defiant",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575071#p575071',
+            minimumStartingLevel: 10
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
