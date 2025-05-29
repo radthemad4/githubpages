@@ -328,4 +328,9 @@ export const backgrounds: Entry[] = [
         author: "Prak",
         link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=574927#p574927",
     },
+    {
+        name: `Escaped Mind Thrall`,
+        author: "Prak",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=575089#p575089",
+    },
 ];

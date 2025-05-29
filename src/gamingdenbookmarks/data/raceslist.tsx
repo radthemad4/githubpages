@@ -292,6 +292,7 @@ export const races: Entry[] = [
         { name: 'Kappa', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=489536#p489536' },
         { name: 'Merfolk', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=465680#p465680' },
         { name: 'Planetouched', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=428664#p428664' },
+        { name: 'Tuladhara', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575090#p575090' },
     ].map(({ name, link }) => {
         return {
             name,

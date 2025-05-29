@@ -103,6 +103,7 @@ export const monsters: MonsterEntry[] = [
             { name: 'Planetouched', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=428664#p42866' },
             { name: 'Prinny', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=54924&p=571815#p571815' },
             { name: 'Shadow', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=546707#p546707' },
+            { name: 'Tuladhara', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575090#p575090' },
             { name: 'Eladrin', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=564282#p564282', },
         ].map(({ name, link }) => {
             return {
