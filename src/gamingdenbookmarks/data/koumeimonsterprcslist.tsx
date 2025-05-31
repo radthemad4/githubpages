@@ -1236,6 +1236,16 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575079#p575079',
             minimumStartingLevel: 10
         },
+        {
+            name: "Morrigna PrC: Deathly Enforcer",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575097#p575097',
+            minimumStartingLevel: 15
+        },
+        {
+            name: "Venedaemon PrC: Vile Sorcerer",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575098#p575098',
+            minimumStartingLevel: 8
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
