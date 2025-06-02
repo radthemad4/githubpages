@@ -1246,6 +1246,16 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575098#p575098',
             minimumStartingLevel: 8
         },
+        {
+            name: "Erodaemon PrC: Heart Breaker",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575101#p575101',
+            minimumStartingLevel: 13
+        },
+        {
+            name: "Lunar Naga PrC: Void Serpent",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575102#p575102',
+            minimumStartingLevel: 8
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
