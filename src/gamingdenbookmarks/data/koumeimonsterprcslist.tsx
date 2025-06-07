@@ -1256,6 +1256,21 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575102#p575102',
             minimumStartingLevel: 8
         },
+        {
+            name: "Dream Naga PrC: Oneiric Ophidian",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575118#p575118',
+            minimumStartingLevel: 10
+        },
+        {
+            name: "Dream Naga PrC: Oneiric Ophidian",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575118#p575118',
+            minimumStartingLevel: 10
+        },
+        {
+            name: "Slime Naga PrC: Ooze Conductor",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575119#p575119',
+            minimumStartingLevel: 10
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
