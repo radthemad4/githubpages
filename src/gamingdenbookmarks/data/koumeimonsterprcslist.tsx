@@ -1271,6 +1271,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575119#p575119',
             minimumStartingLevel: 10
         },
+        {
+            name: "Royal Naga PrC: Singular Collective",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575120#p575120',
+            minimumStartingLevel: 13
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
