@@ -1276,6 +1276,16 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575120#p575120',
             minimumStartingLevel: 13
         },
+        {
+            name: "Flame Drake PrC: Inferno Wyrm",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575121#p575121',
+            minimumStartingLevel: 7
+        },
+        {
+            name: "Flame Drake PrC: Inferno Wyrm",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575121#p575121',
+            minimumStartingLevel: 7
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,

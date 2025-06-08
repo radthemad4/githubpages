@@ -359,6 +359,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Dementor", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=429343#p429343" },
             { name: "Djinn", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=412996#p412996" },
             { name: "Efreeti", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=411415#p411415" },
+            { name: "Erimesh", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=575123#p575123" },
             { name: "Falxugon (Harvester Devil)", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=412084#p412084" },
             { name: "Farastu Demodand", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=549630#p549630" },
             { name: "Fire Snake", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=426288#p426288" },
