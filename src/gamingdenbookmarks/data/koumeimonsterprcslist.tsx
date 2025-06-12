@@ -1286,6 +1286,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575121#p575121',
             minimumStartingLevel: 7
         },
+        {
+            name: "Thriae Dancer PrC: Terpsichorean",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575138#p575138',
+            minimumStartingLevel: 8
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
