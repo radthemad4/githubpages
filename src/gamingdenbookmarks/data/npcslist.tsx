@@ -177,6 +177,11 @@ export const npcs: MonsterEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575090#p575090',
             challengeRating: 1,
         },
+        {
+            name: 'Ungor Warrior 1',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575140#p575140',
+            challengeRating: 0.5,
+        },
     ].map(({ name, link, challengeRating }) => {
         return {
             name,

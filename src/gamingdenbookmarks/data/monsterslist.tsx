@@ -122,6 +122,7 @@ export const monsters: MonsterEntry[] = [
             { name: 'Leg Eater', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=548506#p548506' },
             { name: 'Merfolk', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=465680#p465680' },
             { name: 'Town Guard', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=446296#p446296' },
+            { name: 'Ungor', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575140#p575140' },
             { name: 'Witch', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=424325#p424325' },
             { name: 'Zenythri', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=413827#p413827' },
         ].map(({ name, link }) => {

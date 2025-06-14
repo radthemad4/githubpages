@@ -1291,6 +1291,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575138#p575138',
             minimumStartingLevel: 8
         },
+        {
+            name: "Thriae Seer PrC: Oracle of the Colony",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575139#p575139',
+            minimumStartingLevel: 13
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
