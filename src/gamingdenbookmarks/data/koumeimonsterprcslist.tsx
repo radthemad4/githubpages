@@ -1296,6 +1296,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575139#p575139',
             minimumStartingLevel: 13
         },
+        {
+            name: "Imentesh Protean PrC: Chaos Caster",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575142#p575142',
+            minimumStartingLevel: 12
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
