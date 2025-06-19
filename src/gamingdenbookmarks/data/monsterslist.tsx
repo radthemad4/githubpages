@@ -249,6 +249,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Hordling, Medium", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=387338#p387338" },
             { name: "Hound Archon", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=381374#p381374" },
             { name: "Houri", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=574966#p574966" },
+            { name: "Ice Minion", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=575143#p575143" },
             { name: "Irda", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=509491#p509491" },
             { name: "Janni", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=413443#p413443" },
             { name: "Large Earth Elemental", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=460668#p460668" },
