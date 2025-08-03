@@ -546,6 +546,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=544773#p544773',
             minimumStartingLevel: 11
         },
+        {
+            name: 'Medusa PrC: Euryale Monarch',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575156#p575156',
+            minimumStartingLevel: 11
+        },
         ...[
             { name: "Sha'ir", link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=544778#p544778' },
             { name: 'Elemental Master', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=544780#p544780' },
@@ -1300,6 +1305,26 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             name: "Imentesh Protean PrC: Chaos Caster",
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575142#p575142',
             minimumStartingLevel: 12
+        },
+        {
+            name: "Yamah Azata PrC: Azata Spellthief",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575147#p575147',
+            minimumStartingLevel: 7
+        },
+        {
+            name: "Shae PrC: Shadow Monarch",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575155#p575155',
+            minimumStartingLevel: 6
+        },
+        {
+            name: "Uniila (Cabal Devil) PrC: Infernal Patron",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575160#p575160',
+            minimumStartingLevel: 12
+        },
+        {
+            name: "Ashmede (Judgement Devil) PrC: Ashmede Accuser",
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575160#p575160',
+            minimumStartingLevel: 14
         },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {

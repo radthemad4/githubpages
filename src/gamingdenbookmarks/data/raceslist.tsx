@@ -618,4 +618,14 @@ export const races: Entry[] = [
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575140#p575140',
         author: 'Wiseman',
     },
+    {
+        name: 'Aureal',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575185#p575185',
+        author: 'Wiseman',
+    },
+    {
+        name: 'Mazken',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575279#p575279',
+        author: 'Wiseman',
+    },
 ];

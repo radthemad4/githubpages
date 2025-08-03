@@ -96,10 +96,12 @@ export const monsters: MonsterEntry[] = [
     },
     ...[
         ...[
+            { name: 'Aureal', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575185#p575185' },
             { name: 'Fairy', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=472264#p472264' },
             { name: 'Happy Bunny', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=472407#p472407' },
             { name: 'Human', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575001#p575001' },
             { name: 'Matoran', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=468716#p468716' },
+            { name: 'Mazken', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575279#p575279' },
             { name: 'Planetouched', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=428664#p42866' },
             { name: 'Prinny', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=54924&p=571815#p571815' },
             { name: 'Shadow', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=546707#p546707' },
@@ -242,6 +244,7 @@ export const monsters: MonsterEntry[] = [
         ...[
             { name: "Bralani Eladrin", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=381365#p381365" },
             { name: "Bloodletter", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=570369#p570369" },
+            { name: "Chain Devil", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=575151#p575151" },
             { name: "Daemonette", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=574522#p574522" },
             { name: "Dryad", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=414635#p414635" },
             { name: "Earth Minion", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=548505#p548505" },
@@ -262,6 +265,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Pyromancer", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=446292#p446292" },
             { name: "Redspawn Firebelcher", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=518392#p518392" },
             { name: "Steel Devil", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=498989#p498989" },
+            { name: "Storm Servant", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=575161#p575161" },
             { name: "Thyiades", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=551720#p551720" },
             { name: "Vaati", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=427312#p427312" },
             { name: "Vapor Draconian", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=518797#p518797" },

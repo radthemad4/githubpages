@@ -673,6 +673,83 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
       challengeRating,
       link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=573924#p573924',
     })),
+
+    ...[
+      {
+        name: 'Poliwag',
+        challengeRating: 0.5,
+      },
+      {
+        name: 'Poliwhirl',
+        challengeRating: 5,
+      },
+      {
+        name: 'Poliwrath',
+        challengeRating: 10,
+      },
+      {
+        name: 'Politoed',
+        challengeRating: 10,
+      },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575221#p575221',
+    })),
+
+    ...[
+      {
+        name: 'Machop',
+        challengeRating: 1,
+      },
+      {
+        name: 'Machoke',
+        challengeRating: 6,
+      },
+      {
+        name: 'Machamp',
+        challengeRating: 10,
+      },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575259#p575259',
+    })),
+
+    ...[
+      {
+        name: 'Bellsprout',
+        challengeRating: 1,
+      },
+      {
+        name: 'Weepinbell',
+        challengeRating: 4,
+      },
+      {
+        name: 'Victreebell',
+        challengeRating: 8,
+      },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575288#p575288',
+    })),
+
+    ...[
+      {
+        name: 'Tentacool',
+        challengeRating: 1,
+      },
+      {
+        name: 'Tentacruel',
+        challengeRating: 6,
+      },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575346#p575346',
+    })),
+
   ].map(({ name, challengeRating, link }) => {
     return {
       name,
