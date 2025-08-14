@@ -108,14 +108,16 @@ export const races: Entry[] = [
     {
         name: "Robot Girl",
         author: "Koumei",
-        link: "https://tgdmb.com/phpBB3/viewtopic.php?t=50551",
+        link: "https://dnd-wiki.org/wiki/Robot_Girl_(3.5e_Race)",
         relatedLinks: [
-            ...(['Some Magic Items, Arch-Golem Execution Girlfriend (PrC)'].map((value) => {
-                return {
-                    title: value,
-                    link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=141531#p141531'
-                }
-            }))
+            {
+                title: 'Steel Angel Feat (and old version of Robot Girl)',
+                link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=50551'
+            },
+            {
+                title: 'Some Magic Items, Arch-Golem Execution Girlfriend (PrC)',
+                link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=141531#p141531'
+            }
         ]
     },
     ...(["Aasimar", "Drow", "Dwarf", "Elf", "Feytouched", "Gnome", "Half-Elf", "Halfling",
