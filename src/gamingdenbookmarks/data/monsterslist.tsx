@@ -187,6 +187,7 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
+            { name: "Aghash", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=575728#p575728" },
             { name: "Blue Horror", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=574968#p574968" },
             { name: "Bohrok", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=468546#p468546" },
             { name: "Bomb", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=496103#p496103" },
