@@ -22,6 +22,15 @@ body {
   overflow: hidden;
 }
 
-#highlight {
-  background-color: '#FF0000FF';
+.map-icon {
+  position: absolute;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.map-icon a {
+  color: #DDF;
 }

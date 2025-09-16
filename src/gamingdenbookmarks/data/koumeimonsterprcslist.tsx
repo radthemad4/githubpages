@@ -24,7 +24,7 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         },
         ...[
             { name: 'Spellspinner', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=543880#p543880' },
-            { name: 'Lord of the Flies', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=543887#p543887' },
+            { name: 'Cluster Core', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=543887#p543887' },
             { name: 'Spider Queen', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=543892#p543892' },
         ].map(({ name, link }) => {
             return {

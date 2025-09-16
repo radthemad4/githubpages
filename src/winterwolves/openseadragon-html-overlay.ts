@@ -31,130 +31,127 @@
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
 
-// import OpenSeadragon from "openseadragon";
+// @ts-nocheck
 
-// (function () {
-//   var $ = window.OpenSeadragon;
+import OpenSeadragon from "openseadragon";
 
-//   if (!$) {
-//     $ = OpenSeadragon;
-//     if (!$) {
-//       throw new Error('OpenSeadragon is missing.');
-//     }
-//   }
+(function () {
+  var $ = window.OpenSeadragon;
 
-//   // ----------
-//   $.Viewer.prototype.htmlOverlay = function (options) {
-//     options = options || {};
+  if (!$) {
+    $ = OpenSeadragon;
+    if (!$) {
+      throw new Error('OpenSeadragon is missing.');
+    }
+  }
 
-//     if (this._htmlOverlayInfo) {
-//       return this._htmlOverlayInfo;
-//     }
+  // ----------
+  $.Viewer.prototype.htmlOverlay = function (options) {
+    options = options || {};
 
-//     this._htmlOverlayInfo = new Overlay(this);
-//     if (options.scale) {
-//       this._htmlOverlayInfo._scale = options.scale; // arbitrary scale for created overlay element
-//     } else {
-//       this._htmlOverlayInfo._scale = 1;
-//     }
-//     return this._htmlOverlayInfo;
-//   };
+    if (this._htmlOverlayInfo) {
+      return this._htmlOverlayInfo;
+    }
 
-//   // ----------
-//   var Overlay = function (viewer) {
-//     var self = this;
+    this._htmlOverlayInfo = new Overlay(this);
+    if (options.scale) {
+      this._htmlOverlayInfo._scale = options.scale; // arbitrary scale for created overlay element
+    } else {
+      this._htmlOverlayInfo._scale = 1;
+    }
+    return this._htmlOverlayInfo;
+  };
 
-//     this._viewer = viewer;
+  // ----------
+  var Overlay = function (viewer) {
+    var self = this;
 
-//     this._element = document.createElement('div');
-//     this._element.style.position = 'absolute';
-//     this._element.style.left = 0;
-//     this._element.style.top = 0;
-//     // We give it width and height of 0 so it doesn't steal events from the viewer.
-//     this._element.style.width = 0;
-//     this._element.style.height = 0;
-//     this._element.style.transformOrigin = '0 0';
-//     this._viewer.canvas.appendChild(this._element);
+    this._viewer = viewer;
 
-//     // OpenSeadragon blocks the normal click event action, so we have to reestablish it for links here
-//     new OpenSeadragon.MouseTracker({
-//       element: this._element,
-//       clickHandler: function (event) {
-//         // The event.originalTarget is the new OSD way; we're keeping
-//         // the event.originalEvent.target fallback for old OSD.
-//         var clickTarget =
-//           event.originalTarget || event.originalEvent.target;
+    this._element = document.createElement('div');
+    this._element.style.position = 'absolute';
+    this._element.style.left = 0;
+    this._element.style.top = 0;
+    // We give it width and height of 0 so it doesn't steal events from the viewer.
+    this._element.style.width = 0;
+    this._element.style.height = 0;
+    this._element.style.transformOrigin = '0 0';
+    this._viewer.canvas.appendChild(this._element);
 
-//         if (/a/i.test(clickTarget.nodeName)) {
-//           if (clickTarget.target === '_blank') {
-//             window.open(clickTarget.href);
-//           } else {
-//             location.href = clickTarget.href;
-//           }
-//         }
-//       }
-//     });
+    // OpenSeadragon blocks the normal click event action, so we have to reestablish it for links here
+    new OpenSeadragon.MouseTracker({
+      element: this._element,
+      clickHandler: function (event) {
+        // The event.originalTarget is the new OSD way; we're keeping
+        // the event.originalEvent.target fallback for old OSD.
+        var clickTarget =
+          event.originalTarget || event.originalEvent.target;
 
-//     this._viewer.addHandler('animation', function () {
-//       self.resize();
-//     });
+        // if (/a/i.test(clickTarget.nodeName)) {
+        //   if (clickTarget.target === '_blank') {
+        //     window.open(clickTarget.href);
+        //   } else {
+        //     location.href = clickTarget.href;
+        //   }
+        // }
+      }
+    });
 
-//     this._viewer.addHandler('open', function () {
-//       self.resize();
-//     });
+    this._viewer.addHandler('animation', function () {
+      self.resize();
+    });
 
-//     this._viewer.addHandler('rotate', function (evt) {
-//       self.resize();
-//     });
+    this._viewer.addHandler('open', function () {
+      self.resize();
+    });
 
-//     this._viewer.addHandler('resize', function () {
-//       self.resize();
-//     });
+    this._viewer.addHandler('rotate', function (evt) {
+      self.resize();
+    });
 
-//     this.resize();
-//   };
+    this._viewer.addHandler('resize', function () {
+      self.resize();
+    });
 
-//   // ----------
-//   Overlay.prototype = {
-//     // ----------
-//     element: function () {
-//       return this._element;
-//     },
+    this.resize();
+  };
 
-//     // ----------
-//     resize: function () {
-//       var p = this._viewer.viewport.pixelFromPoint(
-//         new $.Point(0, 0),
-//         true
-//       );
-//       var zoom = this._viewer.viewport.getZoom(true);
-//       var rotation = this._viewer.viewport.getRotation();
+  // ----------
+  Overlay.prototype = {
+    // ----------
+    element: function () {
+      return this._element;
+    },
 
-//       // TODO: Expose an accessor for _containerInnerSize in the OSD API so we don't have to use the private variable.
-//       var scale =
-//         (this._viewer.viewport._containerInnerSize.x * zoom) /
-//         this._scale;
+    // ----------
+    resize: function () {
+      var p = this._viewer.viewport.pixelFromPoint(
+        new $.Point(0, 0),
+        true
+      );
+      var zoom = this._viewer.viewport.getZoom(true);
+      var rotation = this._viewer.viewport.getRotation();
 
-//       this._element.style.transform =
-//         'translate(' +
-//         p.x +
-//         'px,' +
-//         p.y +
-//         'px) scale(' +
-//         scale +
-//         ') rotate(' +
-//         rotation +
-//         ')';
-//     },
+      // TODO: Expose an accessor for _containerInnerSize in the OSD API so we don't have to use the private variable.
+      var scale =
+        (this._viewer.viewport._containerInnerSize.x * zoom / this._viewer.world._contentSize.x) /
+        this._scale;
 
-//     // ----------
-//     onClick: function (element, handler) {
-//       // TODO: Fast click for mobile browsers
+      // console.log('containerInnerSize.x', this._viewer.viewport._containerInnerSize.x)
+      // console.log('_contentSize.x', this._viewer.world._contentSize.x);
+      // console.log('zoom', zoom);
 
-//       new $.MouseTracker({
-//         element: element,
-//         clickHandler: handler
-//       }).setTracking(true);
-//     }
-//   };
-// })();
+      this._element.style.transform = `translate(${p.x}px,${p.y}px) scale(${scale}) rotate(${rotation})`;
+    },
+
+    // ----------
+    onClick: function (element, handler) {
+      // // TODO: Fast click for mobile browsers
+
+      // new $.MouseTracker({
+      //   element: element,
+      //   clickHandler: handler
+      // }).setTracking(true);
+    }
+  };
+})();
