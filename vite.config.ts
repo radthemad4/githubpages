@@ -36,7 +36,7 @@ export default defineConfig({
         whynoclassplosionin5e: resolve(__dirname, 'Why no Classplosion in 5e/Why no Classplosion in 5e.html'),
         crusadermaneuvers: resolve(__dirname, 'crusader-maneuvers/Crusader Maneuvers.html'),
         freyamathforgamedevsassignment1: resolve(__dirname, 'freya-assignments/mathforgamedevsassignment1.html'),
-        winterwolvesindex: resolve(__dirname, 'winterwolves/index.html'),
+        winterwolvesindex: resolve(__dirname, 'winterwolves2025/index.html'),
       },
     },
   },
