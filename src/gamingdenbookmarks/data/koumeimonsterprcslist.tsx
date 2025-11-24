@@ -1228,7 +1228,7 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         },
         {
             name: "Terlen PrC: Great Fang of the Sky",
-            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=565928#p565928',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=573196#p573196',
             minimumStartingLevel: 5
         },
         {

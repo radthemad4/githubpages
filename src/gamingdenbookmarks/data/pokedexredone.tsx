@@ -763,6 +763,18 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
         name: 'Golem',
         challengeRating: 10,
       },
+      {
+        name: 'Alolan Geodude',
+        challengeRating: 2,
+      },
+      {
+        name: 'Alolan Graveler',
+        challengeRating: 5,
+      },
+      {
+        name: 'Alolan Golem',
+        challengeRating: 10,
+      },
     ].map(({ name, challengeRating }) => ({
       name,
       challengeRating,

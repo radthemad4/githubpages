@@ -123,7 +123,6 @@ function App() {
           minHeight: '100%',
           height: 0,
           backgroundColor: 'black',
-
         }}
       />
     </div>

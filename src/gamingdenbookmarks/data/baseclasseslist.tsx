@@ -2233,4 +2233,10 @@ export const baseClasses: Entry[] = [
         author: "Kaelik",
         link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58105",
     },
+    {
+        name: "Essentia Necromancer",
+        author: "Kaelik",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58209",
+        wikiLink: 'https://dnd-wiki.org/wiki/Essentia_Necromancer_%283.5e_Class%29',
+    },
 ];

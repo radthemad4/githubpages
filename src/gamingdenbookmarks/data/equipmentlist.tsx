@@ -792,4 +792,21 @@ export const uncategorizedItems: Entry[] = [
             { title: 'Pokedex Redone 2022', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=57904' }
         ],
     },
+    {
+        name: "Kiseru Pipes",
+        author: "Prak",
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=55047&p=576220#p576220',
+    },
+    {
+        name: "Kiseru of Altered States, 360 gp",
+        author: "Prak",
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=55047&p=576220#p576220',
+        wikiLink: 'https://dnd-wiki.org/wiki/Kiseru_of_Altered_States_(3.5e_Equipment)',
+    },
+    {
+        name: "Ever-full Kiseru, 800 gp",
+        author: "Prak",
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=55047&p=576220#p576220',
+        wikiLink: 'https://dnd-wiki.org/wiki/Ever-full_Kiseru_(3.5e_Equipment)',
+    },
 ];
