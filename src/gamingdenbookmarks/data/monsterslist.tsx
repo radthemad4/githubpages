@@ -222,8 +222,10 @@ export const monsters: MonsterEntry[] = [
             { name: "Battlemage", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=422066#p422066" },
             { name: "Barbazu", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=501269#p501269" },
             { name: "Bonnacon", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=426245#p426245" },
+            { name: "Bluespawn Stormlizard", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=545424#p545424" },
             { name: "Deathlock", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=549345#p549345" },
             { name: "Fader Bull", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=471245#p471245" },
+            { name: "Flame Core", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=576814#p576814" },
             { name: "Juvenile Dragon", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
             { name: "Nightcharger", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=507328#p507328" },
             { name: "Noviere", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=387596#p387596" },
@@ -234,7 +236,6 @@ export const monsters: MonsterEntry[] = [
             { name: "Tiefling Fighter", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=420898#p420898" },
             { name: "Vahki", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=468257#p468257" },
             { name: "Wood Soldier", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=455655#p455655" },
-            { name: "Bluespawn Stormlizard", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=545424#p545424" },
         ].map(({ name, link }) => {
             return {
                 name,

@@ -2239,4 +2239,10 @@ export const baseClasses: Entry[] = [
         link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58209",
         wikiLink: 'https://dnd-wiki.org/wiki/Essentia_Necromancer_%283.5e_Class%29',
     },
+    {
+        name: "Beguiler",
+        author: "radthemad4",
+        link: "https://docs.google.com/document/d/1MlWjlsmuwyyNlH1iJdzqP2Ex2Rh8WT1N_uAUncTEKqI/edit?tab=t.0",
+        relatedLinks: [{ title: 'Den Thread', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58233' }],
+    },
 ];
