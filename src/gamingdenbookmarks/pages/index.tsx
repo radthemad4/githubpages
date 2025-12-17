@@ -49,18 +49,18 @@ createRoot(<>
   <div className='Content'>
     <div>The Tomes are a set of five book-length sourcebooks made by Frank and K. These books are: </div>
     <ul>
-      <li>The <a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=34248">Tome of Necromancy</a> (<a href="http://www.dnd-wiki.org/wiki/Tome_of_Necromancy_%283.5e_Sourcebook%29">wiki</a>)</li>
-      <li>The <a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=28828">Tome of Fiends</a> (<a href="http://www.dnd-wiki.org/wiki/Tome_of_Fiends_%283.5e_Sourcebook%29">wiki</a>)</li>
-      <li>The <a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=28547">Dungeonomicon</a> (<a href="http://www.dnd-wiki.org/wiki/Dungeonomicon_%283.5e_Sourcebook%29">wiki</a>)</li>
-      <li><a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=33294">Races of War</a> (<a href="http://www.dnd-wiki.org/wiki/Races_of_War_%283.5e_Sourcebook%29">wiki</a>)</li>
-      <li><a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=35813">Book of Gears</a> (<a href="http://www.dnd-wiki.org/wiki/Book_of_Gears_%283.5e_Sourcebook%29">wiki</a>) (only partially complete but worth reading, use Red_Rob's Complete Tome Items and Simplified Tome Armor, see below)</li>
+      <li>The <a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=34248">Tome of Necromancy</a> (<a href="https://dnd-wiki.org/wiki/Tome_of_Necromancy_(3.5e_Sourcebook)">wiki</a>)</li>
+      <li>The <a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=28828">Tome of Fiends</a> (<a href="https://dnd-wiki.org/wiki/Tome_of_Fiends_(3.5e_Sourcebook)">wiki</a>)</li>
+      <li>The <a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=28547">Dungeonomicon</a> (<a href="https://dnd-wiki.org/wiki/Dungeonomicon_(3.5e_Sourcebook)">wiki</a>)</li>
+      <li><a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=33294">Races of War</a> (<a href="https://dnd-wiki.org/wiki/Races_of_War_(3.5e_Sourcebook)">wiki</a>)</li>
+      <li><a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=35813">Book of Gears</a> (<a href="https://dnd-wiki.org/wiki/Book_of_Gears_(3.5e_Sourcebook)">wiki</a>) (only partially complete but worth reading, use Red_Rob's Complete Tome Items and Simplified Tome Armor, see below)</li>
     </ul>
 
     <div>Unofficial Extras</div>
     <ul>
       <li><a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=51121">Comprehensive Tome Errata, Kaelik</a></li>
-      <li><a href="https://tgdmb.com/phpBB3/viewtopic.php?t=53704">Complete Tome Items and Wish Economy, Red_Rob</a> (<a href="https://dnd-wiki.org/wiki/Tome_Magic_Items_%283.5e_Variant_Rule%29">wiki</a>)</li>
-      <li><a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=53563">Simplified Tome Armour, Red_Rob</a> (<a href="https://dnd-wiki.org/wiki/Tome_Armor_(3.5e_Variant_Rule%29">wiki</a>)</li>
+      <li><a href="https://tgdmb.com/phpBB3/viewtopic.php?t=53704">Complete Tome Items and Wish Economy, Red_Rob</a> (<a href="https://dnd-wiki.org/wiki/Tome_Magic_Items_(3.5e_Variant_Rule)">wiki</a>)</li>
+      <li><a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=53563">Simplified Tome Armour, Red_Rob</a> (<a href="https://dnd-wiki.org/wiki/Tome_Armor_(3.5e_Variant_Rule)">wiki</a>)</li>
     </ul>
     <div>
       These sourcebooks have the mission of sanitizing the parts of D{'&'}D 3.5 that the writers believe did not make sense. The five books focus, respectively, on the Necromancy rules, the rules for evil outsiders and the lower planes, dungeons and roguish characters, bringing fighter types up to the same power level as casters, and an overhaul of item and wealth rules. Despite only two of the books having "Tome" in the title, that word has been adopted as an adjective to describe the rule set and design philosophy as a whole. Some of the material in the Tomes can look significantly different than what you'd find in most 3.5 sourcebooks, and the rules for fighters especially have a different power level than what many people are used to.

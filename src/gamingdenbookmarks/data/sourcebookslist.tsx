@@ -5,31 +5,31 @@ export const sourcebooks: Entry[] = [
         name: "The Tome of Necromancy",
         author: "Frank and K",
         link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=34248",
-        wikiLink: "http://www.dnd-wiki.org/wiki/Tome_of_Necromancy_%283.5e_Sourcebook%29"
+        wikiLink: "https://dnd-wiki.org/wiki/Tome_of_Necromancy_%283.5e_Sourcebook%29"
     },
     {
         name: "The Tome of Fiends",
         author: "Frank and K",
         link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=28828",
-        wikiLink: "http://www.dnd-wiki.org/wiki/Tome_of_Fiends_%283.5e_Sourcebook%29"
+        wikiLink: "https://dnd-wiki.org/wiki/Tome_of_Fiends_%283.5e_Sourcebook%29"
     },
     {
         name: "The Dungeonomicon",
         author: "Frank and K",
         link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=28547",
-        wikiLink: "http://www.dnd-wiki.org/wiki/Dungeonomicon_%283.5e_Sourcebook%29"
+        wikiLink: "https://dnd-wiki.org/wiki/Dungeonomicon_%283.5e_Sourcebook%29"
     },
     {
         name: "Races of War",
         author: "Frank and K",
         link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=33294",
-        wikiLink: "http://www.dnd-wiki.org/wiki/Races_of_War_%283.5e_Sourcebook%29"
+        wikiLink: "https://dnd-wiki.org/wiki/Races_of_War_%283.5e_Sourcebook%29"
     },
     {
         name: "Book of Gears",
         author: "Frank and K",
         link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=35813",
-        wikiLink: "http://www.dnd-wiki.org/wiki/Book_of_Gears_%283.5e_Sourcebook%29",
+        wikiLink: "https://dnd-wiki.org/wiki/Book_of_Gears_%283.5e_Sourcebook%29",
         note: <span>only partially complete but worth reading, also see Red_Rob's <a href="https://tgdmb.com/phpBB3/viewtopic.php?t=53704">Complete Tome Items and Wish Economy</a> (<a href="https://dnd-wiki.org/wiki/Tome_Magic_Items_%283.5e_Variant_Rule%29">wiki</a>) and <a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=53563">Simplified Tome Armour</a> (<a href="https://dnd-wiki.org/wiki/Tome_Armor_(3.5e_Variant_Rule%29">wiki</a>)</span>
     },
     {

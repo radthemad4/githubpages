@@ -5,7 +5,7 @@ export const bogItemCollections: Entry[] = [
         name: "Book of Gears",
         author: "Frank and K",
         link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=35813",
-        wikiLink: "http://www.dnd-wiki.org/wiki/Book_of_Gears_%283.5e_Sourcebook%29",
+        wikiLink: "https://dnd-wiki.org/wiki/Book_of_Gears_%283.5e_Sourcebook%29",
         note: "only partially complete but worth reading, use Red_Rob's"
     },
     {
