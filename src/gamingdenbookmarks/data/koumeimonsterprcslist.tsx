@@ -1,6 +1,24 @@
 import { PrestigeClassEntry } from "../../entry";
 
 export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
+    {
+        name: 'Serpentine Transformist',
+        author: 'Koumei',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=317854#p317854',
+        minimumStartingLevel: 1,
+    },
+    {
+        name: 'Choker PrC: Strangler',
+        author: 'downzorz',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=318371#p318371',
+        minimumStartingLevel: 4,
+    },
+    {
+        name: 'Minotaur PrC: Dancing Bull',
+        author: 'Koumei',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=324384#p324384',
+        minimumStartingLevel: 6,
+    },
     ...[
         {
             name: 'Abeil Soldier PrC: Stormwing Champion',

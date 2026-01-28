@@ -1,5 +1,4 @@
 import { PrestigeClassEntry } from "../../entry";
-import { koumeiMonsterPrcs } from "./koumeimonsterprcslist";
 
 export const prestigeClasses: PrestigeClassEntry[] = [
     {
@@ -794,7 +793,6 @@ export const prestigeClasses: PrestigeClassEntry[] = [
         link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=39304',
         minimumStartingLevel: 5,
     },
-    ...koumeiMonsterPrcs,
     {
         name: 'Monster Rider',
         author: 'Judging__Eagle',
@@ -1270,24 +1268,6 @@ export const prestigeClasses: PrestigeClassEntry[] = [
         link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=317384#p317384',
         minimumStartingLevel: 6,
         relatedLinks: [{ title: 'Perfect Minion', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=316687#p316687' }]
-    },
-    {
-        name: 'Serpentine Transformist',
-        author: 'Koumei',
-        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=317854#p317854',
-        minimumStartingLevel: 1,
-    },
-    {
-        name: 'Choker PrC: Strangler',
-        author: 'downzorz',
-        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=318371#p318371',
-        minimumStartingLevel: 4,
-    },
-    {
-        name: 'Minotaur PrC: Dancing Bull',
-        author: 'Koumei',
-        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=324384#p324384',
-        minimumStartingLevel: 6,
     },
     {
         name: 'Gore Painter',

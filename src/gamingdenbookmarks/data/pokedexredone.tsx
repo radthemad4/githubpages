@@ -823,6 +823,37 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
       link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=576777#p576777',
     })),
 
+    ...[
+      {
+        name: 'Slowpoke',
+        challengeRating: 2,
+      },
+      {
+        name: 'Slowbro',
+        challengeRating: 8,
+      },
+      {
+        name: 'Slowking',
+        challengeRating: 8,
+      },
+      {
+        name: 'Galarian Slowpoke',
+        challengeRating: 2,
+      },
+      {
+        name: 'Galarian Slowbro',
+        challengeRating: 8,
+      },
+      {
+        name: 'Galarian Slowking',
+        challengeRating: 8,
+      },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=576991#p576991',
+    })),
+
   ].map(({ name, challengeRating, link }) => {
     return {
       name,

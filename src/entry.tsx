@@ -5,15 +5,15 @@ export interface Entry {
     author: string
     link: string
     prereqs?:
-        | (
-              | {
-                    title: string
-                    link: string
-                }
-              | string
-              | JSX.Element
-          )[]
+    | (
+        | {
+            title: string
+            link: string
+        }
         | string
+        | JSX.Element
+    )[]
+    | string
     relatedLinks?: {
         title: string
         link: string
@@ -32,7 +32,7 @@ export interface PrestigeClassEntry extends Entry {
 }
 
 export function PrestigeClassEntryList(props: { entries: PrestigeClassEntry[]; minusOne?: boolean }): JSX.Element {
-    const [nullMinimumEntries, minimumLevelToEntriesMap] = useMemo(() => {
+    const [nullMinimumEntries, minimumLevelToEntriesMap] = (() => {
         return props.entries.reduce(
             ([nullMinimumEntries, minimumLevelToEntriesMap], entry) => {
                 if (!entry.minimumStartingLevel) return [nullMinimumEntries.concat(entry), minimumLevelToEntriesMap]
@@ -49,7 +49,7 @@ export function PrestigeClassEntryList(props: { entries: PrestigeClassEntry[]; m
             },
             [[] as PrestigeClassEntry[], {} as Record<number, PrestigeClassEntry[]>]
         )
-    }, [])
+    })()
 
     return (
         <div>
