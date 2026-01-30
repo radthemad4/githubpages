@@ -2245,4 +2245,10 @@ export const baseClasses: Entry[] = [
         link: "https://docs.google.com/document/d/1MlWjlsmuwyyNlH1iJdzqP2Ex2Rh8WT1N_uAUncTEKqI/edit?tab=t.0",
         relatedLinks: [{ title: 'Den Thread', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58233' }],
     },
+    {
+        name: "Rainbow Servant",
+        author: "Kaelik",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58242",
+        wikiLink: 'https://dnd-wiki.org/wiki/Rainbow_Servant_Base_Class_(3.5e_Class)',
+    },
 ];
