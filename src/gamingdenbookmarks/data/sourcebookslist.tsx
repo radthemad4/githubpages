@@ -64,10 +64,11 @@ export const sourcebooks: Entry[] = [
         author: 'Koumei',
         link: 'https://www.scribd.com/document/156510306/Roleplaying-in-the-Disgaeaverse',
         relatedLinks: [
+            { title: 'Catbox Mirror', link: 'https://files.catbox.moe/fbhqj5.pdf' },
             { title: 'Mediafire Mirror', link: 'https://www.mediafire.com/file/8639xwza1o28tw0/156510306-Roleplaying-in-the-Disgaeaverse.pdf/file' },
             { title: 'Thread', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=51315' },
             { title: 'DisgaeaGame Revised (Incomplete)', link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=56518' },
-        ]
+        ],
     },
     {
         name: 'Comprehensive Tome Errata',
