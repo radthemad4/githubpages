@@ -868,7 +868,7 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
       challengeRating,
       link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=577146#p577146',
     })),
-    
+
     ...[
       {
         name: 'Doduo',
@@ -883,7 +883,7 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
       challengeRating,
       link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=577146#p577146',
     })),
-    
+
     ...[
       {
         name: 'Shellder',
@@ -898,7 +898,7 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
       challengeRating,
       link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=577265#p577265',
     })),
-    
+
     ...[
       {
         name: 'Grimer',
@@ -920,6 +920,21 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
       name,
       challengeRating,
       link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=577376#p577376',
+    })),
+
+    ...[
+      {
+        name: 'Gulpin',
+        challengeRating: 1,
+      },
+      {
+        name: 'Swalot',
+        challengeRating: 5,
+      },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=57904&p=577523#p577523',
     })),
 
   ].map(({ name, challengeRating, link }) => {
