@@ -2251,4 +2251,10 @@ export const baseClasses: Entry[] = [
         link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58242",
         wikiLink: 'https://dnd-wiki.org/wiki/Rainbow_Servant_Base_Class_(3.5e_Class)',
     },
+    {
+        name: "Blood Maestro",
+        author: "Kaelik",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58254",
+        wikiLink: 'https://dnd-wiki.org/wiki/Blood_Maestro_(3.5e_Class)',
+    },
 ];
