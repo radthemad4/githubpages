@@ -136,6 +136,7 @@ export const monsters: MonsterEntry[] = [
         }),
         ...[
             { name: "Arbiter", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=575076#p575076" },
+            { name: "Augur", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=577652#p577652" },
             { name: "Baaz Draconian", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=464367#p464367" },
             { name: "Bandit", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=420973#p420973" },
             { name: "Cassisian", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=384917#p384917" },
