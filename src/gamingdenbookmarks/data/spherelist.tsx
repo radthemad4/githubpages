@@ -394,4 +394,9 @@ export const spheres: Entry[] = [
             note: 'wiki link is more recent'
         }
     }),
+    {
+        name: 'Secrets',
+        author: 'Prak',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=577884#p577884',
+    },
 ];

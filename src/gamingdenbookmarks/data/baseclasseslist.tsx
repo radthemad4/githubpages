@@ -2257,4 +2257,10 @@ export const baseClasses: Entry[] = [
         link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58254",
         wikiLink: 'https://dnd-wiki.org/wiki/Blood_Maestro_(3.5e_Class)',
     },
+    {
+        name: "Shadow Archer",
+        author: "Kaelik",
+        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58255",
+        wikiLink: 'https://dnd-wiki.org/wiki/Shadow_Archer_(3.5e_Class)',
+    },
 ];
