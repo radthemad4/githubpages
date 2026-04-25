@@ -1362,6 +1362,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=578545#p578545',
             minimumStartingLevel: 15,
         },
+        {
+            name: 'Red Abishai PrC: Super Tiamat Red',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=578574#p578574',
+            minimumStartingLevel: 10,
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
