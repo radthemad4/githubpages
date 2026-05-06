@@ -1367,6 +1367,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=578574#p578574',
             minimumStartingLevel: 10,
         },
+        {
+            name: 'Munagola (Executioner Devil) PrC: Brutal Paragon',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=578710#p578710',
+            minimumStartingLevel: 10,
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
