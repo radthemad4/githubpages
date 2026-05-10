@@ -1,127 +1,138 @@
-import { Entry } from "../../entry";
+import { Entry } from '../../entry'
 
 export const baseClasses: Entry[] = [
     {
-        name: "Acid Mage",
-        author: "Maxus",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=34146#p34146",
+        name: 'Acid Mage',
+        author: 'Maxus',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=34146#p34146',
     },
     {
-        name: "Adventurer",
-        author: "RadiantPhoenix",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=54556"
+        name: 'Adventurer',
+        author: 'RadiantPhoenix',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=54556',
     },
     {
-        name: "Alternative Martial Flexibility Brawler",
-        author: "AcidBlades",
-        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=454947#p454947"
+        name: 'Alternative Martial Flexibility Brawler',
+        author: 'AcidBlades',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=454947#p454947',
     },
     {
-        name: "Apothecary",
-        author: "Purple",
-        link: "https://tgdmb.com/phpBB3/viewtopic.php?t=50563"
+        name: 'Apothecary',
+        author: 'Purple',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=50563',
     },
     {
-        name: "Puppeteer",
-        author: "FrankTrollman",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=34126#p34126",
-        wikiLink: "https://dnd-wiki.org/wiki/Puppeteer_%283.5e_Class%29"
+        name: 'Puppeteer',
+        author: 'FrankTrollman',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=34126#p34126',
+        wikiLink: 'https://dnd-wiki.org/wiki/Puppeteer_%283.5e_Class%29',
     },
     ...[
         {
             name: 'True Fiend',
-            wikiLink: 'https://dnd-wiki.org/wiki/True_Fiend_(3.5e_Class)'
+            wikiLink: 'https://dnd-wiki.org/wiki/True_Fiend_(3.5e_Class)',
         },
         {
             name: 'Fiendish Brute',
-            wikiLink: 'https://dnd-wiki.org/wiki/Fiendish_Brute_(3.5e_Class)'
+            wikiLink: 'https://dnd-wiki.org/wiki/Fiendish_Brute_(3.5e_Class)',
         },
         {
             name: 'Summoner',
-            wikiLink: 'https://dnd-wiki.org/wiki/Summoner_(3.5e_Class)'
+            wikiLink: 'https://dnd-wiki.org/wiki/Summoner_(3.5e_Class)',
         },
     ].map((element) => {
         return {
             name: element.name,
             author: 'Frank and K',
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=28830#p28830',
-            wikiLink: element.wikiLink
+            wikiLink: element.wikiLink,
         }
     }),
     {
-        name: "Conduit of the Lower Planes",
-        author: "Frank and K",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=28830#p28830",
+        name: 'Conduit of the Lower Planes',
+        author: 'Frank and K',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=28830#p28830',
     },
     {
         name: 'Carthaz Conduit',
         author: 'Kaelik, Catharz Godfoot, Frank and K',
         link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=51125',
-        wikiLink: 'https://dnd-wiki.org/wiki/Conduit_of_the_Lower_Planes_(3.5e_Class)'
+        wikiLink: 'https://dnd-wiki.org/wiki/Conduit_of_the_Lower_Planes_(3.5e_Class)',
     },
     ...[
         {
             name: 'Monk',
-            wikiLink: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)'
+            wikiLink: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)',
         },
         {
             name: 'Jester',
-            wikiLink: 'https://dnd-wiki.org/wiki/Jester_(3.5e_Class)'
+            wikiLink: 'https://dnd-wiki.org/wiki/Jester_(3.5e_Class)',
         },
         {
             name: 'Assassin',
-            wikiLink: 'https://dnd-wiki.org/wiki/Assassin,_Tome_(3.5e_Class)'
+            wikiLink: 'https://dnd-wiki.org/wiki/Assassin,_Tome_(3.5e_Class)',
         },
         {
             name: 'Thief Acrobat',
-            wikiLink: 'https://dnd-wiki.org/wiki/Thief_Acrobat_(3.5e_Class)'
+            wikiLink: 'https://dnd-wiki.org/wiki/Thief_Acrobat_(3.5e_Class)',
         },
     ].map((element) => {
         return {
             name: element.name,
             author: 'Frank and K',
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=28549#p28549',
-            wikiLink: element.wikiLink
+            wikiLink: element.wikiLink,
         }
     }),
     ...[
         {
             name: 'Fighter',
-            wikiLink: 'https://dnd-wiki.org/wiki/Fighter,_Tome_(3.5e_Class)'
+            wikiLink: 'https://dnd-wiki.org/wiki/Fighter,_Tome_(3.5e_Class)',
         },
         {
             name: 'Barbarian',
-            wikiLink: 'https://dnd-wiki.org/wiki/Barbarian,_Tome_(3.5e_Class)'
+            wikiLink: 'https://dnd-wiki.org/wiki/Barbarian,_Tome_(3.5e_Class)',
         },
         {
             name: 'Knight',
-            wikiLink: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)'
+            wikiLink: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)',
         },
         {
             name: 'Samurai',
-            wikiLink: 'https://dnd-wiki.org/wiki/Samurai,_Tome_(3.5e_Class)'
+            wikiLink: 'https://dnd-wiki.org/wiki/Samurai,_Tome_(3.5e_Class)',
         },
     ].map((element) => {
         return {
             name: element.name,
             author: 'Frank and K',
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=33297#p33297',
-            wikiLink: element.wikiLink
+            wikiLink: element.wikiLink,
         }
     }),
     {
         name: 'Monster Tamer',
         author: 'FrankTrollman',
         link: 'https://dnd-wiki.org/wiki/Monster_Tamer_(3.5e_Class)',
-        relatedLinks: [{ title: 'Original Source', link: 'https://web.archive.org/web/20031207191801/http://www.scshop.com/~ritaxis/summoner.html' }],
+        relatedLinks: [
+            {
+                title: 'Original Source',
+                link: 'https://web.archive.org/web/20031207191801/http://www.scshop.com/~ritaxis/summoner.html',
+            },
+        ],
     },
     {
         name: 'Pokémaster',
         author: 'Frank and K',
         link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class',
         relatedLinks: [
-            { title: 'Original', link: 'https://web.archive.org/web/20031207190548/http://www.scshop.com/~ritaxis/pokemaster.html' },
-            { title: 'Original Epic Pokemaster', link: 'https://web.archive.org/web/20031207182216/http://www.scshop.com/%7Eritaxis/epic.html' },
+            {
+                title: 'Original',
+                link: 'https://web.archive.org/web/20031207190548/http://www.scshop.com/~ritaxis/pokemaster.html',
+            },
+            {
+                title: 'Original Epic Pokemaster',
+                link: 'https://web.archive.org/web/20031207182216/http://www.scshop.com/%7Eritaxis/epic.html',
+            },
         ],
     },
     {
@@ -129,10 +140,7 @@ export const baseClasses: Entry[] = [
         author: 'erik',
         link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=56217',
     },
-    ...[
-        'Druid',
-        'Sorcerer',
-    ].map((element) => {
+    ...['Druid', 'Sorcerer'].map((element) => {
         return {
             name: element,
             author: 'Iaimeki',
@@ -142,48 +150,48 @@ export const baseClasses: Entry[] = [
     ...[
         {
             name: 'Artificer',
-            link: 'https://docs.google.com/document/d/1IlVArMNj-7C27SxCIRgDvPgHADJijy49S0su-G7vFB8/edit?usp=sharing'
+            link: 'https://docs.google.com/document/d/1IlVArMNj-7C27SxCIRgDvPgHADJijy49S0su-G7vFB8/edit?usp=sharing',
         },
         {
             name: 'Assassin',
-            link: 'https://docs.google.com/document/d/1tv8ggP3UMskJizIEQamiCzDKyVAeBuvSoXPhKTG8cfY/edit?usp=sharing'
+            link: 'https://docs.google.com/document/d/1tv8ggP3UMskJizIEQamiCzDKyVAeBuvSoXPhKTG8cfY/edit?usp=sharing',
         },
         {
             name: 'Beguiler',
-            link: 'https://docs.google.com/document/d/1dxfEsyYx0q96mGhOk30e7JIOVtzf3AfH021fllauBeQ/edit?usp=sharing'
+            link: 'https://docs.google.com/document/d/1dxfEsyYx0q96mGhOk30e7JIOVtzf3AfH021fllauBeQ/edit?usp=sharing',
         },
         {
             name: 'Disciple',
-            link: 'https://docs.google.com/document/d/1RC36UZ3xAnrj0VCuh9mbVlm_jv9wG0k95Vjd5TBtJdo/edit?usp=sharing'
+            link: 'https://docs.google.com/document/d/1RC36UZ3xAnrj0VCuh9mbVlm_jv9wG0k95Vjd5TBtJdo/edit?usp=sharing',
         },
         {
             name: 'Elementalist',
-            link: 'https://docs.google.com/document/d/1YmozEAd3GCy6g0EcpJClUFVSG1ku_FslVejkAX0aYDM/edit?usp=sharing'
+            link: 'https://docs.google.com/document/d/1YmozEAd3GCy6g0EcpJClUFVSG1ku_FslVejkAX0aYDM/edit?usp=sharing',
         },
         {
             name: 'Hunter',
-            link: 'https://docs.google.com/document/d/1NiJGbcRRq0KfIlehAMyzrh4aVw9lqmM5uj91RrdnUD8/edit?usp=sharing'
+            link: 'https://docs.google.com/document/d/1NiJGbcRRq0KfIlehAMyzrh4aVw9lqmM5uj91RrdnUD8/edit?usp=sharing',
         },
         {
             name: 'Necromancer',
-            link: 'https://docs.google.com/document/d/1TELuZrmUcjLQLMA8X6Mw-Tg4koyEzWAok8J88h3yvHU/edit?usp=sharing'
+            link: 'https://docs.google.com/document/d/1TELuZrmUcjLQLMA8X6Mw-Tg4koyEzWAok8J88h3yvHU/edit?usp=sharing',
         },
         {
             name: 'Warrior',
-            link: 'https://docs.google.com/document/d/1ob1xOGGraspvMh5OAImRidLfAiHUWtBtEO_aD9AvjXQ/edit?usp=sharing'
+            link: 'https://docs.google.com/document/d/1ob1xOGGraspvMh5OAImRidLfAiHUWtBtEO_aD9AvjXQ/edit?usp=sharing',
         },
     ].map((element) => {
         return {
             name: `Aspect ${element.name}`,
             author: 'Chamomile',
             link: element.link,
-            relatedLinks: [{ title: 'Den Thread', link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=57183' }]
+            relatedLinks: [{ title: 'Den Thread', link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=57183' }],
         }
     }),
     {
-        name: "Axe-Thief",
-        author: "Josh_Kablack",
-        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=423851",
+        name: 'Axe-Thief',
+        author: 'Josh_Kablack',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=423851',
     },
     {
         name: 'Archivist',
@@ -201,25 +209,27 @@ export const baseClasses: Entry[] = [
         link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=268857#p268857',
     },
     {
-        name: "Barbarian",
-        author: "Kaelik",
-        link: "https://tgdmb.com/phpBB3/viewtopic.php?p=507511#p507511",
+        name: 'Barbarian',
+        author: 'Kaelik',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=507511#p507511',
     },
     {
-        name: "Bard",
-        author: "FrankTrollman",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=24283",
-        relatedLinks: [{ title: 'Revision by ThunderGod Cid', link: 'https://dnd-wiki.org/wiki/Bard,_Tome_%283.5e_Class%29' }]
+        name: 'Bard',
+        author: 'FrankTrollman',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=24283',
+        relatedLinks: [
+            { title: 'Revision by ThunderGod Cid', link: 'https://dnd-wiki.org/wiki/Bard,_Tome_%283.5e_Class%29' },
+        ],
     },
     {
-        name: "Bard",
-        author: "Koumei",
-        link: "https://tgdmb.com/phpBB3/viewtopic.php?t=50778"
+        name: 'Bard',
+        author: 'Koumei',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=50778',
     },
     {
-        name: "Bard",
-        author: "Orion",
-        link: "https://tgdmb.com/phpBB3/viewtopic.php?t=48650"
+        name: 'Bard',
+        author: 'Orion',
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=48650',
     },
     {
         name: 'Beguiler',
@@ -389,31 +399,31 @@ export const baseClasses: Entry[] = [
     {
         name: 'Cleric',
         author: 'Kaelik',
-        link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=56589'
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=56589',
     },
     {
         name: 'Cock Hurler',
         author: 'FrankTrollman',
-        link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=54089'
+        link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=54089',
     },
     {
         name: 'Cock Mage',
         author: 'Koumei',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=313904#p313904'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=313904#p313904',
     },
     {
         name: 'Cock Master',
         author: 'koz',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=313132#p313132'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=313132#p313132',
     },
-    ...['Corrupter', 'Doombringer',].map((element) => {
+    ...['Corrupter', 'Doombringer'].map((element) => {
         return {
             name: element,
             author: 'Koumei',
             link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=479459#p479459',
         }
     }),
-    ...['Cursed', 'Oozemancer',].map((element) => {
+    ...['Cursed', 'Oozemancer'].map((element) => {
         return {
             name: element,
             author: 'Koumei',
@@ -466,9 +476,15 @@ export const baseClasses: Entry[] = [
         link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=66066#p66066',
     },
     ...[
-        'Desert Wind Warrior', 'Disciple of the Devoted Spirit', 'Diamond Mind',
-        'Master of the Iron Heart', 'Seeker of the Setting Sun', 'Shadow Hand Ninja',
-        'Stone Dragon Berserker', 'Tiger Claw Assassin', 'White Raven General'
+        'Desert Wind Warrior',
+        'Disciple of the Devoted Spirit',
+        'Diamond Mind',
+        'Master of the Iron Heart',
+        'Seeker of the Setting Sun',
+        'Shadow Hand Ninja',
+        'Stone Dragon Berserker',
+        'Tiger Claw Assassin',
+        'White Raven General',
     ].map((name) => {
         return {
             name,
@@ -501,9 +517,12 @@ export const baseClasses: Entry[] = [
         author: 'Kaelik',
         link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=154017#p154017',
         relatedLinks: [
-            { title: 'Blending Feats, Shadow Siphon PrC', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=154018#p154018' },
+            {
+                title: 'Blending Feats, Shadow Siphon PrC',
+                link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=154018#p154018',
+            },
             { title: 'Ethereal Siphon PrC', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=449214#p449214' },
-        ]
+        ],
     },
     {
         name: 'Elementalist',
@@ -515,7 +534,9 @@ export const baseClasses: Entry[] = [
         author: 'FrankTrollman',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=28856#p28856',
         wikiLink: 'https://dnd-wiki.org/wiki/Elementalist_(3.5e_Class)',
-        relatedLinks: [{ title: 'Additional spells by Koumei', link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=52086' }]
+        relatedLinks: [
+            { title: 'Additional spells by Koumei', link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=52086' },
+        ],
     },
     {
         name: 'Exultant',
@@ -616,7 +637,7 @@ export const baseClasses: Entry[] = [
         name: 'Warlock (Spherelock)',
         author: 'Cielingcat',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=40229#p40229',
-        wikiLink: 'https://dnd-wiki.org/wiki/Warlock_(3.5e_Class)'
+        wikiLink: 'https://dnd-wiki.org/wiki/Warlock_(3.5e_Class)',
     },
     {
         name: 'Force Mage',
@@ -660,7 +681,7 @@ export const baseClasses: Entry[] = [
         name: 'Genie',
         author: 'IGTN',
         link: 'https://dnd-wiki.org/wiki/Book_of_Elements_(3.5e_Sourcebook)/Elementals_with_Class/Genie',
-        note: "As Frank's, but with added Shadow and multielement Genies"
+        note: "As Frank's, but with added Shadow and multielement Genies",
     },
     {
         name: 'Genkotsuken (Shadow Warrior)',
@@ -747,7 +768,12 @@ export const baseClasses: Entry[] = [
         name: 'Icewalker',
         author: 'Maxus',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=59698#p59698',
-        note: <span>Deprecated. See <a href='https://www.tgdmb.com/phpBB3/viewtopic.php?t=50012'>Snowscaper</a> <a href='https://dnd-wiki.org/wiki/Snowscaper_(3.5e_Class)'>(wiki)</a></span>
+        note: (
+            <span>
+                Deprecated. See <a href="https://www.tgdmb.com/phpBB3/viewtopic.php?t=50012">Snowscaper</a>{' '}
+                <a href="https://dnd-wiki.org/wiki/Snowscaper_(3.5e_Class)">(wiki)</a>
+            </span>
+        ),
     },
     {
         name: 'Icewright',
@@ -793,7 +819,7 @@ export const baseClasses: Entry[] = [
         name: 'Kantian Paladin',
         author: 'Iaimeki',
         link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=39220',
-        wikiLink: 'https://dnd-wiki.org/wiki/Kantian_Paladin_(3.5e_Class)'
+        wikiLink: 'https://dnd-wiki.org/wiki/Kantian_Paladin_(3.5e_Class)',
     },
     {
         name: 'Kunoichi',
@@ -839,7 +865,7 @@ export const baseClasses: Entry[] = [
         name: 'Marshal',
         author: 'FrankTrollman',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=24348#p24348',
-        wikiLink: 'https://dnd-wiki.org/wiki/Marshal,_Tome_(3.5e_Class)'
+        wikiLink: 'https://dnd-wiki.org/wiki/Marshal,_Tome_(3.5e_Class)',
     },
     {
         name: 'Master of Wrath',
@@ -960,7 +986,7 @@ export const baseClasses: Entry[] = [
         name: 'Paladin',
         author: 'IGTN',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=50021',
-        wikiLink: 'https://dnd-wiki.org/wiki/Paladin,_Tome_%283.5e_Class%29'
+        wikiLink: 'https://dnd-wiki.org/wiki/Paladin,_Tome_%283.5e_Class%29',
     },
     {
         name: 'Paladin',
@@ -1021,7 +1047,7 @@ export const baseClasses: Entry[] = [
         name: 'Rogue',
         author: 'erik',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=55063',
-        wikiLink: 'https://dnd-wiki.org/wiki/Rogue,_Tome_(3.5e_Class)'
+        wikiLink: 'https://dnd-wiki.org/wiki/Rogue,_Tome_(3.5e_Class)',
     },
     {
         name: 'Rogue 2.0',
@@ -1080,7 +1106,7 @@ export const baseClasses: Entry[] = [
             name,
             author: 'IGTN',
             link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=164835#p164835',
-            wikiLink: wikiLink
+            wikiLink: wikiLink,
         }
     }),
     {
@@ -1102,7 +1128,7 @@ export const baseClasses: Entry[] = [
         name: 'Snowscaper',
         author: 'Maxus',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=50012',
-        wikiLink: 'https://dnd-wiki.org/wiki/Snowscaper_(3.5e_Class)'
+        wikiLink: 'https://dnd-wiki.org/wiki/Snowscaper_(3.5e_Class)',
     },
     {
         name: 'Soldier',
@@ -1119,7 +1145,12 @@ export const baseClasses: Entry[] = [
         name: 'Sorcerer',
         author: 'Quantumboost, FrankTrollman, Bigode',
         link: 'https://dnd-wiki.org/wiki/Sorcerer,_Tome_(3.5e_Class%29',
-        relatedLinks: [{ title: "Frank's Original", link: 'https://paizo.com/threads/rzs2i76e?Sorcerers-and-Dread-Necromancers-FIX' }]
+        relatedLinks: [
+            {
+                title: "Frank's Original",
+                link: 'https://paizo.com/threads/rzs2i76e?Sorcerers-and-Dread-Necromancers-FIX',
+            },
+        ],
     },
     {
         name: 'Sorcerer',
@@ -1130,7 +1161,7 @@ export const baseClasses: Entry[] = [
         name: 'Sorcerer [RETRACTED]',
         author: 'Hicks',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=56871',
-        note: 'Hicks: "totally rejected  DO NOT PLAY"'
+        note: 'Hicks: "totally rejected  DO NOT PLAY"',
     },
     {
         name: 'Sorcerer',
@@ -1143,10 +1174,12 @@ export const baseClasses: Entry[] = [
         author: 'FrankTrollman',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=50472',
         wikiLink: 'https://dnd-wiki.org/wiki/Soulborn_(3.5e_Class)',
-        relatedLinks: [{
-            title: 'A feat to switch out soulmelds as a Full-Round Action',
-            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=131466#p131466'
-        }]
+        relatedLinks: [
+            {
+                title: 'A feat to switch out soulmelds as a Full-Round Action',
+                link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=131466#p131466',
+            },
+        ],
     },
     {
         name: 'Speaker',
@@ -1163,7 +1196,7 @@ export const baseClasses: Entry[] = [
         author: 'Vebyast',
         link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=143103#p143103',
         wikiLink: 'https://dnd-wiki.org/wiki/User:Vebyast/Speedened_(3.5e_Class)',
-        note: 'wiki link is more recent'
+        note: 'wiki link is more recent',
     },
     {
         name: 'Spell Breaker',
@@ -1180,7 +1213,7 @@ export const baseClasses: Entry[] = [
         author: 'RelentlessImp',
         link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=56079',
         wikiLink: 'https://dnd-wiki.org/wiki/Spellthief_(Tome)',
-        note: 'wiki link is more recent'
+        note: 'wiki link is more recent',
     },
     {
         name: 'Sphereless Carthaz Conduit',
@@ -1201,7 +1234,7 @@ export const baseClasses: Entry[] = [
         name: 'Spirit Shaman',
         author: 'FrankTrollman',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=105974#p105974',
-        wikiLink: 'https://dnd-wiki.org/wiki/Spirit_Shaman_(3.5e_Class)'
+        wikiLink: 'https://dnd-wiki.org/wiki/Spirit_Shaman_(3.5e_Class)',
     },
     {
         name: 'Spirit Shaman',
@@ -1237,7 +1270,7 @@ export const baseClasses: Entry[] = [
         name: 'Totemist',
         author: 'FrankTrollman',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=50483',
-        wikiLink: 'https://dnd-wiki.org/wiki/Totemist_(3.5e_Class)'
+        wikiLink: 'https://dnd-wiki.org/wiki/Totemist_(3.5e_Class)',
     },
     {
         name: 'Warden',
@@ -1248,7 +1281,7 @@ export const baseClasses: Entry[] = [
         name: 'Rogue',
         author: 'Miryafa',
         link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=54401',
-        wikiLink: 'https://dnd-wiki.org/wiki/Rogue_2.0_(3.5e_Class)'
+        wikiLink: 'https://dnd-wiki.org/wiki/Rogue_2.0_(3.5e_Class)',
     },
     {
         name: 'Warlock',
@@ -1279,7 +1312,7 @@ export const baseClasses: Entry[] = [
         name: 'Wintersmith',
         author: 'Dominicius',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=53451',
-        wikiLink: 'https://dnd-wiki.org/wiki/Wintersmith_(3.5e_Class)'
+        wikiLink: 'https://dnd-wiki.org/wiki/Wintersmith_(3.5e_Class)',
     },
     {
         name: 'Wizard',
@@ -1325,14 +1358,14 @@ export const baseClasses: Entry[] = [
         return {
             name,
             author: 'Hicks',
-            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=541847#p541847'
+            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=541847#p541847',
         }
     }),
     {
         name: 'Celestial Initiate',
         author: 'Grek',
         link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=380176#p380176',
-        relatedLinks: [{ title: 'Den Thread', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=407585' }]
+        relatedLinks: [{ title: 'Den Thread', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=407585' }],
     },
     {
         name: 'Alternate Cleric [PF]',
@@ -1418,7 +1451,7 @@ export const baseClasses: Entry[] = [
         return {
             name,
             author: 'Chamomile',
-            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=316521#p316521'
+            link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=316521#p316521',
         }
     }),
     {
@@ -1440,7 +1473,7 @@ export const baseClasses: Entry[] = [
         name: 'Templar',
         author: 'Tarkisflux, ThunderGod Cid',
         link: 'https://dnd-wiki.org/wiki/Templar_(3.5e_Class)',
-        relatedLinks: [{ title: 'Den Thread', link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=53703' }]
+        relatedLinks: [{ title: 'Den Thread', link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=53703' }],
     },
     {
         name: 'Shapeshifter',
@@ -1451,7 +1484,7 @@ export const baseClasses: Entry[] = [
         name: 'Relaxed Warrior',
         author: 'Foxwarrior',
         link: 'https://dnd-wiki.org/wiki/Relaxed_Warrior_(3.5e_Class)',
-        relatedLinks: [{ title: 'Den Thread', link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=53425' }]
+        relatedLinks: [{ title: 'Den Thread', link: 'https://tgdmb.com/phpBB3/viewtopic.php?t=53425' }],
     },
     {
         name: 'Warrior of Light',
@@ -1583,9 +1616,7 @@ export const baseClasses: Entry[] = [
         author: 'erik',
         link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=169443#p169443',
     },
-    ...[
-        'Baatezu Cenobyte', "Tanar'ri Ravager", 'Yugoloth Mercenary',
-    ].map((name) => {
+    ...['Baatezu Cenobyte', "Tanar'ri Ravager", 'Yugoloth Mercenary'].map((name) => {
         return {
             name,
             author: 'JonSetanta',
@@ -1598,15 +1629,15 @@ export const baseClasses: Entry[] = [
         link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=178418#p178418',
     },
     ...[
-        { name: "Bone Golem", link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=547370#p547370' },
-        { name: "Skeleton Knight", link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=547373#p547373' },
-        { name: "Handcrafted Archer", link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=547381#p547381' },
-        { name: "Artillerist", link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=547397#p547397' },
+        { name: 'Bone Golem', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=547370#p547370' },
+        { name: 'Skeleton Knight', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=547373#p547373' },
+        { name: 'Handcrafted Archer', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=547381#p547381' },
+        { name: 'Artillerist', link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=547397#p547397' },
     ].map(({ name, link }) => {
         return {
             name,
             link,
-            author: 'Koumei'
+            author: 'Koumei',
         }
     }),
     {
@@ -1634,11 +1665,7 @@ export const baseClasses: Entry[] = [
         author: 'JonSetanta',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=178128#p178128',
     },
-    ...[
-        'Archon Soldier',
-        'Guardinal Protector',
-        'Eladrin Errant',
-    ].map((name) => {
+    ...['Archon Soldier', 'Guardinal Protector', 'Eladrin Errant'].map((name) => {
         return {
             name,
             author: 'JonSetanta',
@@ -1659,7 +1686,7 @@ export const baseClasses: Entry[] = [
         name: 'Shugenja',
         author: 'Midnight_v',
         link: 'https://wiki.rpg.net/index.php/3.5_Shugenja',
-        note: <a href='https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51806'>Den Thread</a>
+        note: <a href="https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51806">Den Thread</a>,
     },
     {
         name: 'Barbarian',
@@ -1690,7 +1717,7 @@ export const baseClasses: Entry[] = [
         name: 'Electric Mage',
         author: 'For Valor, Aelaris',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=51086',
-        note: <a href='https://dnd-wiki.org/wiki/Electric_Mage_(3.5e_Class)'>Original</a>
+        note: <a href="https://dnd-wiki.org/wiki/Electric_Mage_(3.5e_Class)">Original</a>,
     },
     {
         name: 'Spontaneous Druid',
@@ -1756,7 +1783,7 @@ export const baseClasses: Entry[] = [
         name: 'Druid',
         author: 'God_of_Awesome',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=50711',
-        relatedLinks: [{ title: 'Paths', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=50710' }]
+        relatedLinks: [{ title: 'Paths', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=50710' }],
     },
     {
         name: 'Fighter',
@@ -1772,7 +1799,9 @@ export const baseClasses: Entry[] = [
         name: 'Champion',
         author: 'God_of_Awesome',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=50427',
-        relatedLinks: [{ title: 'Mount Abilities', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=124845#p124845' }]
+        relatedLinks: [
+            { title: 'Mount Abilities', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=124845#p124845' },
+        ],
     },
     {
         name: 'Dragoon',
@@ -1873,7 +1902,7 @@ export const baseClasses: Entry[] = [
         name: 'Dragoon',
         author: 'Maxus',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=49214',
-        wikiLink: 'https://dnd-wiki.org/wiki/Dragoon_(3.5e_Prestige_Class)'
+        wikiLink: 'https://dnd-wiki.org/wiki/Dragoon_(3.5e_Prestige_Class)',
     },
     {
         name: 'Paladin',
@@ -1944,7 +1973,7 @@ export const baseClasses: Entry[] = [
         name: 'Paladin',
         author: 'Caedrus',
         link: 'https://web.archive.org/web/20070219233013/boards1.wizards.com/showthread.php?t=761045',
-        relatedLinks: [{ title: 'Den Thread', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=40104#p40104' }]
+        relatedLinks: [{ title: 'Den Thread', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=40104#p40104' }],
     },
     {
         name: 'Fire Binder',
@@ -1970,7 +1999,7 @@ export const baseClasses: Entry[] = [
         name: 'Enigmist',
         link: 'https://web.archive.org/web/20080307041851/http://forums.gleemax.com/showthread.php?t=922890',
         author: 'AnonymousInternets',
-        relatedLinks: [{ title: 'Den Thread', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=39795' }]
+        relatedLinks: [{ title: 'Den Thread', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=39795' }],
     },
     {
         name: 'Paladin',
@@ -1981,7 +2010,7 @@ export const baseClasses: Entry[] = [
         name: 'Puglist',
         link: 'https://web.archive.org/web/20070319171242/http://boards1.wizards.com/showthread.php?t=810869',
         author: 'Leress?',
-        relatedLinks: [{ title: 'Den Thread', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=39200#p39200' }]
+        relatedLinks: [{ title: 'Den Thread', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=39200#p39200' }],
     },
     {
         name: 'Psychic Warrior',
@@ -2003,100 +2032,105 @@ export const baseClasses: Entry[] = [
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=38063',
         author: 'Essence',
     },
-    ...['Hulk', 'Ascetic',].map((name) => {
+    ...['Hulk', 'Ascetic'].map((name) => {
         return {
             name,
             author: 'Essence',
-            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=37898#p37898'
-        };
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=37898#p37898',
+        }
     }),
     ...['Mookslayer', 'Itinerant', 'Ki Warrior'].map((name) => {
         return {
             name,
             author: 'Essence',
-            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=37893#p37893'
-        };
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=37893#p37893',
+        }
     }),
     {
         name: 'Greenbond',
         author: 'Essence',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37758'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37758',
     },
     {
         name: 'Fop',
         author: 'Essence',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37757'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37757',
     },
     {
         name: 'Channeler',
         author: 'Essence',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37749'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37749',
     },
     {
         name: 'Druid',
         author: 'Essence',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37748'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37748',
     },
     {
         name: 'Courtier',
         author: 'Essence',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37724'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37724',
     },
     {
         name: 'Cleric',
         author: 'Essence',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37723'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37723',
     },
     {
         name: 'Fighter',
         author: 'Lago_AM3P',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37713'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37713',
     },
     {
         name: 'Champion',
         author: 'Essence',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37680'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37680',
     },
     {
         name: 'Barbarian',
         author: 'Essence',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37671'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37671',
     },
     {
         name: 'Bard',
         author: 'Essence',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37641'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37641',
     },
     {
         name: 'Arsenalist',
         author: 'Essence',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37622'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37622',
     },
     {
         name: 'Akashic',
         author: 'Essence',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37618'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=37618',
     },
     {
         name: 'Paragon',
         author: 'JonSetanta',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=549801#p549801'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=549801#p549801',
     },
     {
         name: 'Reaver',
         author: 'angelfromanotherpin',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=549837#p549837'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=549837#p549837',
     },
     {
         name: 'Werewolf',
         author: 'JonSetanta',
-        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=57792&p=549882#p549882'
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=57792&p=549882#p549882',
     },
     {
         name: 'Scorpion Transformist',
         author: 'Darth Rabbitt',
         link: 'https://docs.google.com/document/d/145352RqifRAkPIALuKq9yBI5ukL02W25v85MModWQbg',
-        note: <span>Based on <a href="https://tgdmb.com/phpBB3/viewtopic.php?p=317854#p317854">Serpentine Transformationist</a></span>
+        note: (
+            <span>
+                Based on{' '}
+                <a href="https://tgdmb.com/phpBB3/viewtopic.php?p=317854#p317854">Serpentine Transformationist</a>
+            </span>
+        ),
     },
     {
         name: 'Serpentine Transformist',
@@ -2104,9 +2138,9 @@ export const baseClasses: Entry[] = [
         link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=317854#p317854',
     },
     {
-        name: "Dragon",
-        author: "Kaelik",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=141884#p141884",
+        name: 'Dragon',
+        author: 'Kaelik',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=141884#p141884',
     },
     {
         name: 'Hell Rider Revised Revised',
@@ -2120,34 +2154,34 @@ export const baseClasses: Entry[] = [
         relatedLinks: [{ title: 'Den Thread', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=57880' }],
     },
     {
-        name: "Priest",
-        author: "Kaelik",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=57919",
+        name: 'Priest',
+        author: 'Kaelik',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=57919',
     },
     {
-        name: "Moonlight Bandit",
-        author: "Kaelik",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=563821#p563821",
+        name: 'Moonlight Bandit',
+        author: 'Kaelik',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=563821#p563821',
     },
     {
-        name: "Demon Ascendant",
-        author: "Koumei",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=563911#p563911",
+        name: 'Demon Ascendant',
+        author: 'Koumei',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=563911#p563911',
     },
     {
-        name: "Aeon Ascendant",
-        author: "Koumei",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=563912#p563912",
+        name: 'Aeon Ascendant',
+        author: 'Koumei',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=563912#p563912',
     },
     {
-        name: "Azata Ascendant",
-        author: "Koumei",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=563913#p563913",
+        name: 'Azata Ascendant',
+        author: 'Koumei',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=563913#p563913',
     },
     {
-        name: "Angel Ascendant",
-        author: "Koumei",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=564099#p564099",
+        name: 'Angel Ascendant',
+        author: 'Koumei',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=564099#p564099',
     },
     ...[
         {
@@ -2189,78 +2223,85 @@ export const baseClasses: Entry[] = [
     ].map(({ name, link }) => {
         return {
             name,
-            author: "FrankTrollman",
+            author: 'FrankTrollman',
             link,
-            relatedLinks: [{
-                title: `Frank's Final Fantasy Conversion`,
-                link: 'https://web.archive.org/web/20050214093806/http://www.scshop.com/~ritaxis/ff/index.html',
-            }],
-        };
+            relatedLinks: [
+                {
+                    title: `Frank's Final Fantasy Conversion`,
+                    link: 'https://web.archive.org/web/20050214093806/http://www.scshop.com/~ritaxis/ff/index.html',
+                },
+            ],
+        }
     }),
     {
-        name: "Portal Mage",
-        author: "Kaelik",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=57991",
+        name: 'Portal Mage',
+        author: 'Kaelik',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=57991',
     },
     {
-        name: "Possessor Item",
-        author: "Kaelik",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58005",
+        name: 'Possessor Item',
+        author: 'Kaelik',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58005',
     },
     {
-        name: "Alchemist",
-        author: "Koumei",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=567693#p567693",
+        name: 'Alchemist',
+        author: 'Koumei',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=567693#p567693',
         note: 'based on PF version',
     },
     {
-        name: "Nychthemeron Mage",
-        author: "Kaelik",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58095",
+        name: 'Nychthemeron Mage',
+        author: 'Kaelik',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58095',
     },
     {
-        name: "Fighter",
-        author: "Kaelik",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58101",
+        name: 'Fighter',
+        author: 'Kaelik',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58101',
     },
     {
-        name: "Formations Expert",
-        author: "Kaelik",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58102",
+        name: 'Formations Expert',
+        author: 'Kaelik',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58102',
     },
     {
-        name: "Lord of the Deeps",
-        author: "Kaelik",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58105",
+        name: 'Lord of the Deeps',
+        author: 'Kaelik',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58105',
     },
     {
-        name: "Essentia Necromancer",
-        author: "Kaelik",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58209",
+        name: 'Essentia Necromancer',
+        author: 'Kaelik',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58209',
         wikiLink: 'https://dnd-wiki.org/wiki/Essentia_Necromancer_%283.5e_Class%29',
     },
     {
-        name: "Beguiler",
-        author: "radthemad4",
-        link: "https://docs.google.com/document/d/1MlWjlsmuwyyNlH1iJdzqP2Ex2Rh8WT1N_uAUncTEKqI/edit?tab=t.0",
+        name: 'Beguiler',
+        author: 'radthemad4',
+        link: 'https://docs.google.com/document/d/1MlWjlsmuwyyNlH1iJdzqP2Ex2Rh8WT1N_uAUncTEKqI/edit?tab=t.0',
         relatedLinks: [{ title: 'Den Thread', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58233' }],
     },
     {
-        name: "Rainbow Servant",
-        author: "Kaelik",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58242",
+        name: 'Rainbow Servant',
+        author: 'Kaelik',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58242',
         wikiLink: 'https://dnd-wiki.org/wiki/Rainbow_Servant_Base_Class_(3.5e_Class)',
     },
     {
-        name: "Blood Maestro",
-        author: "Kaelik",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58254",
+        name: 'Blood Maestro',
+        author: 'Kaelik',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58254',
         wikiLink: 'https://dnd-wiki.org/wiki/Blood_Maestro_(3.5e_Class)',
     },
     {
-        name: "Shadow Archer",
-        author: "Kaelik",
-        link: "https://www.tgdmb.com/phpBB3/viewtopic.php?t=58255",
+        name: 'Shadow Archer',
+        author: 'Kaelik',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58255',
         wikiLink: 'https://dnd-wiki.org/wiki/Shadow_Archer_(3.5e_Class)',
     },
-];
+    {
+        name: 'Gem Chosen',
+        author: 'deaddmwalking',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58263',
+    },
+]

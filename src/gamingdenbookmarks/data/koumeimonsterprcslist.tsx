@@ -1372,6 +1372,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=578710#p578710',
             minimumStartingLevel: 10,
         },
+        {
+            name: 'Warforged Titan PrC: Giant Mech',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=578769#p578769',
+            minimumStartingLevel: 10,
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
