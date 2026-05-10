@@ -1377,6 +1377,16 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=578769#p578769',
             minimumStartingLevel: 10,
         },
+        {
+            name: 'Juvenile Silver Dragon PrC: Silverhair',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=578793#p578793',
+            minimumStartingLevel: 13,
+        },
+        {
+            name: 'Juvenile Blue Dragon PrC: Desert Ghost',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=578794#p578794',
+            minimumStartingLevel: 11,
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
