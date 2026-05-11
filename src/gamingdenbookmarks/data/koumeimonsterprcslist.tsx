@@ -1387,6 +1387,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=578794#p578794',
             minimumStartingLevel: 11,
         },
+        {
+            name: 'Juvenile Hex Dragon PrC: Accursed Wyrm',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=578821#p578821',
+            minimumStartingLevel: 11,
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
