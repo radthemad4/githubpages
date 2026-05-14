@@ -1392,6 +1392,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=578821#p578821',
             minimumStartingLevel: 11,
         },
+        {
+            name: 'Juvenile Cobalt Dragon PrC: Insidious Influence',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=57635&p=578880#p578880',
+            minimumStartingLevel: 12,
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
