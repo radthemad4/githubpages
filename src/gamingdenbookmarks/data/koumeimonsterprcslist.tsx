@@ -1397,6 +1397,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=57635&p=578880#p578880',
             minimumStartingLevel: 12,
         },
+        {
+            name: 'Juvenile Copper Dragon PrC: Alchemic Dragon',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=578909#p578909',
+            minimumStartingLevel: 12,
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
