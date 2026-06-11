@@ -630,4 +630,11 @@ export const races: Entry[] = [
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=575279#p575279',
         author: 'Wiseman',
     },
+    ...['Glameir (Elves)', 'Thumbar (Dwarves)', 'Orqueneas (Orcs)'].map((name) => {
+        return {
+            name,
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=579505#p579505',
+            author: 'Prak',
+        };
+    }),
 ];

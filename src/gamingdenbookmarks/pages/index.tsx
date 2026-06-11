@@ -15,8 +15,7 @@ export const createRoot = (child: JSX.Element) => {
           <div style={{
             backgroundColor: 'white',
             width: '85%',
-            borderColor: '#E6E9ED',
-            border: '1px solid transparent',
+            border: '1px solid #E6E9ED',
             borderRadius: '8px',
             padding: '15px',
             textAlign: 'left',
