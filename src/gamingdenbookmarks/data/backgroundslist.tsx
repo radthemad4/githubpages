@@ -316,12 +316,12 @@ export const backgrounds: Entry[] = [
     {
         name: `Escaped Slave Monster`,
         author: "Kaelik",
-        link: "https://files.catbox.moe/tghnq6.png",
+        link: "https://files.catbox.moe/3yx9gj.png",
     },
     {
         name: `Bakery Sample Dispenser`,
         author: "erik",
-        link: "https://files.catbox.moe/0jmc68.png",
+        link: "https://files.catbox.moe/809is7.png",
     },
     {
         name: `Extreme Omnivore`,

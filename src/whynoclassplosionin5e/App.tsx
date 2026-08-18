@@ -358,6 +358,7 @@ function App() {
               color: 'rgb(51, 51, 51)',
               fontSize: '10px',
               fontWeight: 'normal',
+              fontFamily: "Verdana, Helvetica, Arial, sans-serif",
             }}
             >
               <a target='_blank' href='https://www.tgdmb.com/phpBB3/viewtopic.php?p=433750#p433750'><FaFile color='#999999' /></a> by <a target='_blank' href={`https://www.tgdmb.com/phpBB3/memberlist.php?mode=viewprofile&u=9`} className="Link1">Username17</a>  » Wed Apr 08, 2015 8:45 pm

@@ -450,7 +450,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
         minimumStartingLevel: 6,
     },
     {
-        name: 'Tribal Shaman ',
+        name: 'Tribal Shaman',
         author: 'Wiseman',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=505108#p505108',
         minimumStartingLevel: 4,

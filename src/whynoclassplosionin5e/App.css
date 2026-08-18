@@ -109,3 +109,7 @@ button {
   cursor:pointer;
   overflow: hidden;        
 }
+
+h1 {
+  font-family: "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+}

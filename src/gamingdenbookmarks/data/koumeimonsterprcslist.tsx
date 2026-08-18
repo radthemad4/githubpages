@@ -1402,6 +1402,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=578909#p578909',
             minimumStartingLevel: 12,
         },
+        {
+            name: 'Arctic Fox PrC: Foxfire Trickster',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=580809#p580809',
+            minimumStartingLevel: 5,
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,

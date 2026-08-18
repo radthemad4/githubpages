@@ -270,7 +270,7 @@ export const acfLists: ACFList[] = (() => {
                 {
                     name: 'Nythecemon Trainer',
                     author: 'Kaelik',
-                    link: 'https://files.catbox.moe/v7rsya.png',
+                    link: 'https://files.catbox.moe/bih73m.png',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
                 },
             ]
