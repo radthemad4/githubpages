@@ -181,6 +181,7 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             { name: 'Bargainer', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=544051#p544051' },
             { name: 'Black Maiden', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=544063#p544063' },
             { name: 'Night Blade', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=544065#p544065' },
+            { name: 'Life Returner', link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=580928#p580928', },
         ].map(({ name, link }) => {
             return {
                 name: `Demon: Succubus PrC: ${name}`,
