@@ -399,4 +399,9 @@ export const spheres: Entry[] = [
         author: 'Prak',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=577884#p577884',
     },
+    {
+        name: "Warp'ead (Orc)",
+        author: 'Prak',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=581052#p581052',
+    },
 ];
