@@ -337,10 +337,11 @@ export const monsters: MonsterEntry[] = [
             return {
                 name,
                 link,
-                challengeRating: 8
+                challengeRating: 8,
             }
         }),
         ...[
+            { name: "Anana", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=581175#p581175" },
             { name: "Architect Genie", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=460250#p460250" },
             { name: "Avoral Guardinal", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=381372#p381372" },
             { name: "Burning Bull", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=537826#p537826" },
@@ -358,7 +359,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name,
                 link,
-                challengeRating: 9
+                challengeRating: 9,
             }
         }),
         ...[
