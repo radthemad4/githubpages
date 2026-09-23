@@ -1096,17 +1096,21 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
 
     ...[
       {
-        name: "Drowzee",
-        challengeRating: 2,
+        name: "Cubone",
+        challengeRating: 1,
       },
       {
-        name: "Hypno",
-        challengeRating: 5,
+        name: "Marowak",
+        challengeRating: 6,
+      },
+      {
+        name: "Alolan Marowak",
+        challengeRating: 6,
       },
     ].map(({ name, challengeRating }) => ({
       name,
       challengeRating,
-      link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=580000#p580000',
+      link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=581288#p581288',
     })),
 
 

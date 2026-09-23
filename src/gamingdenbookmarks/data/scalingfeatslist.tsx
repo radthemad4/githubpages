@@ -1756,6 +1756,11 @@ export const scalingFeats: Entry[] = [
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=570810#p570810',
     },
     {
+        name: 'Shapeshifting Multiattack',
+        author: 'Kaelik',
+        link: 'https://i.ibb.co/4nzFfhTb/img-2026-09-18-08-51-35.png',
+    },
+    {
         name: 'Master Artisan [Skill] [Leadership]',
         author: 'Lokathor',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=55252',
