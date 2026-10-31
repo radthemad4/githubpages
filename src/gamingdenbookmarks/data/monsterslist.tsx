@@ -266,6 +266,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Magaav", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=571420#p571420" },
             { name: "Malakim", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=384915#p384915" },
             { name: "Mezzoloth", link: "https://tgdmb.com/phpBB3/viewtopic.php?p=536092#p536092" },
+            { name: "Plaguebearer", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=581450#p581450" },
             { name: "Pyromancer", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=446292#p446292" },
             { name: "Redspawn Firebelcher", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=518392#p518392" },
             { name: "Steel Devil", link: "https://www.tgdmb.com/phpBB3/viewtopic.php?p=498989#p498989" },
