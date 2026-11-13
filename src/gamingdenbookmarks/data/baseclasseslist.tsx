@@ -2305,8 +2305,13 @@ export const baseClasses: Entry[] = [
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58263',
     },
     {
-        name: 'Onmyouji',
+        name: 'Onmyouji (Partial Caster)',
         author: 'MiraiShadow',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58299',
+    },
+    {
+        name: 'Onmyouji (Full Caster)',
+        author: 'MiraiShadow',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58301',
     },
 ]
