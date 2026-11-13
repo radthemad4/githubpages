@@ -2304,4 +2304,9 @@ export const baseClasses: Entry[] = [
         author: 'deaddmwalking',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58263',
     },
+    {
+        name: 'Onmyouji',
+        author: 'MiraiShadow',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=58299',
+    },
 ]
